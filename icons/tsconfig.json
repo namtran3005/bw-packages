@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "outDir": "./build/webhook",
+    "skipLibCheck": true,
+    "rootDir": "./src",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "types": [
+      "jest"
+    ],
+    "target": "ESNext",
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "module": "CommonJS",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noUnusedLocals": true,
+    "declarationDir": "types",
+    "jsx": "react",
+    "declaration": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "Node",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/@types"
+    ]
+  },
+  "exclude": [
+    "./build/**",
+    "./src/storybook"
+  ]
+}

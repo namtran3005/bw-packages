@@ -1,0 +1,486 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs should render Tabs 1`] = `
+.c3 {
+  text-align: left;
+}
+
+.c3.c3.c3 {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #BEAAFF;
+  font-family: Inter;
+  font-style: normal;
+  white-space: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  word-wrap: break-word;
+}
+
+.c3.c3.c3:hover {
+  background: initial;
+}
+
+.c3.c3.c3:active {
+  background: initial;
+}
+
+.c4 {
+  position: relative;
+  margin-left: 0px;
+  max-width: none;
+  min-width: none;
+  box-sizing: border-box;
+  height: auto;
+  min-height: auto;
+  z-index: initial;
+  -webkit-transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  transition: 300ms cubic-bezier(.62,.28,.23,.99);
+}
+
+.c4 > .{
+  box-sizing: border-box;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: inherit;
+  margin-right: inherit;
+  max-width: auto;
+  text-align: inherit;
+  height: auto;
+  -webkit-transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.c2.c2.c2 {
+  position: relative;
+  text-align: left;
+  text-transform: none;
+  opacity: 0.5;
+  -webkit-transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  max-width: none;
+  min-height: 0;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-left: 0;
+  padding-top: 0;
+  padding-bottom: 4;
+}
+
+.c2.c2.c2:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  width: 16px;
+  height: 4px;
+}
+
+.c2.c2.c2:focus:before {
+  opacity: 0.4;
+}
+
+.c2.c2.c2.selected {
+  opacity: 1;
+}
+
+.c2.c2.c2.selected:focus:before {
+  opacity: 0;
+}
+
+.c2.c2.c2.disabled {
+  opacity: 0.1;
+}
+
+.c2.c2.c2 .wrapper {
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.c0.c0.c0 {
+  margin-bottom: -24px;
+  padding: 24px;
+  min-height: 0;
+}
+
+.c0.c0.c0 .indicator {
+  background: #BEAAFF;
+  width: 16px !important;
+  height: 4px;
+}
+
+.c0.c0.c0 .react-swipeable-view-container > div {
+  overflow: visible !important;
+}
+
+.c0.c0.c0 .c1 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.c0.c0.c0 .c1:first-of-type {
+  margin-left: 0;
+}
+
+.c0.c0.c0 .c1:last-of-type {
+  margin-right: 0;
+}
+
+.c0.c0.c0 .c1:focus:before {
+  background: #BEAAFF;
+}
+
+<body>
+  <div>
+    <div
+      class="MuiTabs-root root c0"
+    >
+      <div
+        class="MuiTabs-scroller scroller MuiTabs-fixed fixed"
+        style="overflow: hidden;"
+      >
+        <div
+          class="MuiTabs-flexContainer flexContainer"
+          role="tablist"
+        >
+          <button
+            aria-selected="true"
+            class="MuiButtonBase-root MuiTab-root root MuiTab-textColorInherit textColorInherit c1 c2 Mui-selected selected MuiTab-fullWidth fullWidth"
+            role="tab"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiTab-wrapper wrapper"
+            >
+              <h4
+                class="MuiTypography-root c3 MuiTypography-h4"
+              >
+                First Item
+              </h4>
+            </span>
+          </button>
+        </div>
+        <span
+          class="PrivateTabIndicator-root-1 PrivateTabIndicator-colorSecondary-3 MuiTabs-indicator indicator"
+          style="left: 0px; width: 0px;"
+        />
+      </div>
+    </div>
+    <div
+      style="overflow-x: hidden;"
+    >
+      <div
+        class="react-swipeable-view-container"
+        style="flex-direction: row; transition: all 0s ease 0s; direction: ltr; display: flex; will-change: transform;"
+      >
+        <div
+          aria-hidden="false"
+          data-swipeable="true"
+          style="width: 100%; flex-shrink: 0; overflow: auto;"
+        >
+          <div
+            class="c4"
+            label="First Item"
+          >
+            <div
+              class=""
+            >
+              First Item Content
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Tabs should render Tabs and click with listener 1`] = `
+<body>
+  .c3 {
+  text-align: left;
+}
+
+.c3.c3.c3 {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #BEAAFF;
+  font-family: Inter;
+  font-style: normal;
+  white-space: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  word-wrap: break-word;
+}
+
+.c3.c3.c3:hover {
+  background: initial;
+}
+
+.c3.c3.c3:active {
+  background: initial;
+}
+
+.c4 {
+  position: relative;
+  margin-left: 0px;
+  max-width: none;
+  min-width: none;
+  box-sizing: border-box;
+  height: auto;
+  min-height: auto;
+  z-index: initial;
+  -webkit-transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  transition: 300ms cubic-bezier(.62,.28,.23,.99);
+}
+
+.c4 > .{
+  box-sizing: border-box;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: inherit;
+  margin-right: inherit;
+  max-width: auto;
+  text-align: inherit;
+  height: auto;
+  -webkit-transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.c2.c2.c2 {
+  position: relative;
+  text-align: left;
+  text-transform: none;
+  opacity: 0.5;
+  -webkit-transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  max-width: none;
+  min-height: 0;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-left: 0;
+  padding-top: 0;
+  padding-bottom: 4;
+}
+
+.c2.c2.c2:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  width: 16px;
+  height: 4px;
+}
+
+.c2.c2.c2:focus:before {
+  opacity: 0.4;
+}
+
+.c2.c2.c2.selected {
+  opacity: 1;
+}
+
+.c2.c2.c2.selected:focus:before {
+  opacity: 0;
+}
+
+.c2.c2.c2.disabled {
+  opacity: 0.1;
+}
+
+.c2.c2.c2 .wrapper {
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.c0.c0.c0 {
+  margin-bottom: -24px;
+  padding: 24px;
+  min-height: 0;
+}
+
+.c0.c0.c0 .indicator {
+  background: #BEAAFF;
+  width: 16px !important;
+  height: 4px;
+}
+
+.c0.c0.c0 .react-swipeable-view-container > div {
+  overflow: visible !important;
+}
+
+.c0.c0.c0 .c1 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.c0.c0.c0 .c1:first-of-type {
+  margin-left: 0;
+}
+
+.c0.c0.c0 .c1:last-of-type {
+  margin-right: 0;
+}
+
+.c0.c0.c0 .c1:focus:before {
+  background: #BEAAFF;
+}
+
+<div>
+    <div
+      class="MuiTabs-root root c0"
+    >
+      <div
+        class="MuiTabs-scroller scroller MuiTabs-fixed fixed"
+        style="overflow: hidden;"
+      >
+        <div
+          class="MuiTabs-flexContainer flexContainer"
+          role="tablist"
+        >
+          <button
+            aria-selected="true"
+            class="MuiButtonBase-root MuiTab-root root MuiTab-textColorInherit textColorInherit c1 c2 Mui-selected selected MuiTab-fullWidth fullWidth"
+            role="tab"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiTab-wrapper wrapper"
+            >
+              <h4
+                class="MuiTypography-root c3 MuiTypography-h4"
+              >
+                First Tab
+              </h4>
+            </span>
+          </button>
+        </div>
+        <span
+          class="PrivateTabIndicator-root-9 PrivateTabIndicator-colorSecondary-11 MuiTabs-indicator indicator"
+          style="left: 0px; width: 0px;"
+        />
+      </div>
+    </div>
+    <div
+      style="overflow-x: hidden;"
+    >
+      <div
+        class="react-swipeable-view-container"
+        style="flex-direction: row; transition: all 0s ease 0s; direction: ltr; display: flex; will-change: transform;"
+      >
+        <div
+          aria-hidden="false"
+          data-swipeable="true"
+          style="width: 100%; flex-shrink: 0; overflow: auto;"
+        >
+          <div
+            class="c4"
+            label="First Tab"
+          >
+            <div
+              class=""
+            >
+              Content
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Tabs should render Tabs with only text content 1`] = `
+<body>
+  .c0.c0.c0 {
+  margin-bottom: -24px;
+  padding: 24px;
+  min-height: 0;
+}
+
+.c0.c0.c0 .indicator {
+  background: #BEAAFF;
+  width: 16px !important;
+  height: 4px;
+}
+
+.c0.c0.c0 .react-swipeable-view-container > div {
+  overflow: visible !important;
+}
+
+.c0.c0.c0 .sc-bUrJUP {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.c0.c0.c0 .sc-bUrJUP:first-of-type {
+  margin-left: 0;
+}
+
+.c0.c0.c0 .sc-bUrJUP:last-of-type {
+  margin-right: 0;
+}
+
+.c0.c0.c0 .sc-bUrJUP:focus:before {
+  background: #BEAAFF;
+}
+
+<div>
+    <div
+      class="MuiTabs-root root c0"
+    >
+      <div
+        class="MuiTabs-scroller scroller MuiTabs-fixed fixed"
+        style="overflow: hidden;"
+      >
+        <div
+          class="MuiTabs-flexContainer flexContainer"
+          role="tablist"
+        />
+        <span
+          class="PrivateTabIndicator-root-5 PrivateTabIndicator-colorSecondary-7 MuiTabs-indicator indicator"
+          style="left: 0px; width: 0px;"
+        />
+      </div>
+    </div>
+    <div
+      style="overflow-x: hidden;"
+    >
+      <div
+        class="react-swipeable-view-container"
+        style="flex-direction: row; transition: all 0s ease 0s; direction: ltr; display: flex; will-change: transform;"
+      >
+        <div
+          aria-hidden="false"
+          data-swipeable="true"
+          style="width: 100%; flex-shrink: 0; overflow: auto;"
+        >
+          Random Text Content
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

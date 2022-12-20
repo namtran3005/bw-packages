@@ -1,0 +1,28 @@
+export enum ValidationErrors {
+  WEAK_PASSWORD = 'WEAK_PASSWORD',
+  PASSWORD_IS_TOO_SHORT = 'PASSWORD_IS_TOO_SHORT',
+  PASSWORD_IS_TOO_LONG = 'PASSWORD_IS_TOO_LONG',
+  CONTAINS_REPEATED_SEQUENCES = 'CONTAINS_REPEATED_SEQUENCES',
+  MISSING_LOWERCASE_LETTER = 'MISSING_LOWERCASE_LETTER',
+  MISSING_UPPERCASE_LETTER = 'MISSING_UPPERCASE_LETTER',
+  MISSING_NUMBER = 'MISSING_NUMBER',
+  MISSING_SPECIAL_CHAR = 'MISSING_SPECIAL_CHAR',
+  COMMON_PASSWORD = 'COMMON_PASSWORD',
+}
+
+export enum PasswordStrength {
+  VERY_WEAK = 'VERY_WEAK',
+  WEAK = 'WEAK',
+  STRONG = 'STRONG',
+  VERY_STRONG = 'VERY_STRONG',
+}
+
+export interface Configs {
+  maxLength: number;
+  minLength: number;
+}
+
+export interface ValidationResult {
+  strength: PasswordStrength;
+  errors: string[];
+}

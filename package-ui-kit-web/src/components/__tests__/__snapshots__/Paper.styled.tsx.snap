@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Paper should render highlighted paper 1`] = `
+.c0.c0.c0 {
+  background: #FFFFFF;
+  border-radius: 0;
+  border-top: 4px solid #BEAAFF;
+  border-radius: none;
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.04000000000000001),0px 2px 2px 0px rgba(0,0,0,0.028000000000000004),0px 3px 1px -2px rgba(0,0,0,0.024);
+  -webkit-transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  max-width: none;
+  min-width: none;
+  box-sizing: border-box;
+  overflow: initial;
+  z-index: initial;
+}
+
+.c0.c0.c0 > .sc-bdfBwQ {
+  box-sizing: border-box;
+  -webkit-transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+<Paper
+  className="c0"
+  highlight="primaryLilac"
+/>
+`;
+
+exports[`Paper should render paper 1`] = `
+.c0.c0.c0 {
+  background: #FFFFFF;
+  border-radius: 0;
+  border-radius: none;
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.04000000000000001),0px 2px 2px 0px rgba(0,0,0,0.028000000000000004),0px 3px 1px -2px rgba(0,0,0,0.024);
+  -webkit-transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  max-width: none;
+  min-width: none;
+  box-sizing: border-box;
+  overflow: initial;
+  z-index: initial;
+}
+
+.c0.c0.c0 > .sc-bdfBwQ {
+  box-sizing: border-box;
+  -webkit-transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+<Paper
+  className="c0"
+/>
+`;
+
+exports[`Paper should render paper component 1`] = `
+<WithStyles(ForwardRef(Paper))
+  elevation={1}
+/>
+`;
+
+exports[`Paper should render paper with background 1`] = `
+.c0.c0.c0 {
+  background: #BEAAFF;
+  border-radius: 0;
+  border-radius: none;
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.04000000000000001),0px 2px 2px 0px rgba(0,0,0,0.028000000000000004),0px 3px 1px -2px rgba(0,0,0,0.024);
+  -webkit-transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  max-width: none;
+  min-width: none;
+  box-sizing: border-box;
+  overflow: initial;
+  z-index: initial;
+}
+
+.c0.c0.c0 > .sc-bdfBwQ {
+  box-sizing: border-box;
+  -webkit-transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+<Paper
+  background="primaryLilac"
+  className="c0"
+/>
+`;
+
+exports[`Paper should render paper with background alpha 1`] = `
+.c0.c0.c0 {
+  background: #FFFFFF;
+  border-radius: 0;
+  border-radius: none;
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.04000000000000001),0px 2px 2px 0px rgba(0,0,0,0.028000000000000004),0px 3px 1px -2px rgba(0,0,0,0.024);
+  -webkit-transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  max-width: none;
+  min-width: none;
+  box-sizing: border-box;
+  overflow: initial;
+  z-index: initial;
+}
+
+.c0.c0.c0 > .sc-bdfBwQ {
+  box-sizing: border-box;
+  -webkit-transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+<Paper
+  backgroundAlpha={0.5}
+  className="c0"
+/>
+`;
+
+exports[`Paper should render paper with background and alpha 1`] = `
+.c0.c0.c0 {
+  background: rgba(190,170,255,0.5);
+  border-radius: 0;
+  border-radius: none;
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.04000000000000001),0px 2px 2px 0px rgba(0,0,0,0.028000000000000004),0px 3px 1px -2px rgba(0,0,0,0.024);
+  -webkit-transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  max-width: none;
+  min-width: none;
+  box-sizing: border-box;
+  overflow: initial;
+  z-index: initial;
+}
+
+.c0.c0.c0 > .sc-bdfBwQ {
+  box-sizing: border-box;
+  -webkit-transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+<Paper
+  background="primaryLilac"
+  backgroundAlpha={0.5}
+  className="c0"
+/>
+`;
+
+exports[`Paper should render paper with spacing 1`] = `
+.c0.c0.c0 {
+  background: #FFFFFF;
+  border-radius: 0;
+  border-radius: none;
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.04000000000000001),0px 2px 2px 0px rgba(0,0,0,0.028000000000000004),0px 3px 1px -2px rgba(0,0,0,0.024);
+  -webkit-transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  max-width: none;
+  min-width: none;
+  box-sizing: border-box;
+  overflow: initial;
+  z-index: initial;
+}
+
+.c0.c0.c0 > .sc-bdfBwQ {
+  box-sizing: border-box;
+  -webkit-transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+<Paper
+  className="c0"
+  spacing={24}
+/>
+`;
+
+exports[`Paper should render rounded paper 1`] = `
+.c0.c0.c0 {
+  background: #FFFFFF;
+  border-radius: 0;
+  border-radius: 8px;
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.04000000000000001),0px 2px 2px 0px rgba(0,0,0,0.028000000000000004),0px 3px 1px -2px rgba(0,0,0,0.024);
+  -webkit-transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  max-width: none;
+  min-width: none;
+  box-sizing: border-box;
+  overflow: initial;
+  z-index: initial;
+}
+
+.c0.c0.c0 > .sc-bdfBwQ {
+  box-sizing: border-box;
+  -webkit-transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+<Paper
+  className="c0"
+  rounded={true}
+/>
+`;

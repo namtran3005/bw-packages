@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snackbar should render Snackbar 1`] = `
+.c0.c0.c0 > * {
+  border-radius: 0;
+  background: #2C232E;
+  padding: 0 12px !important;
+}
+
+<SnackbarComponent
+  className="c0"
+  open={true}
+/>
+`;
+
+exports[`Snackbar should render Snackbar root component 1`] = `
+<WithStyles(ForwardRef(Snackbar))
+  open={true}
+/>
+`;
+
+exports[`Snackbar should render colored Snackbar 1`] = `
+.c0.c0.c0 > * {
+  border-radius: 0;
+  background: #FFFFFF;
+  padding: 0 12px !important;
+}
+
+<SnackbarComponent
+  background="white"
+  className="c0"
+  foreground="white"
+  open={true}
+/>
+`;

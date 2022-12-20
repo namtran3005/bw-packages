@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransitionSlide should render TransitionSlide 1`] = `
+<ForwardRef(Slide)
+  direction="right"
+/>
+`;

@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressBar should render determinate progress bar 1`] = `
+<body>
+  .c0.c0.c0 {
+  border: none;
+  height: 4px;
+  background-color: rgba(110,158,150,0.2);
+}
+
+.c0.c0.c0 .bar {
+  background-color: #6E9E96;
+}
+
+<div>
+    <div
+      class="MuiLinearProgress-root root MuiLinearProgress-colorPrimary colorPrimary c0 MuiLinearProgress-indeterminate"
+      role="progressbar"
+    >
+      <div
+        class="MuiLinearProgress-bar bar MuiLinearProgress-barColorPrimary barColorPrimary MuiLinearProgress-bar1Indeterminate bar1Indeterminate"
+      />
+      <div
+        class="MuiLinearProgress-bar bar MuiLinearProgress-bar2Indeterminate bar2Indeterminate MuiLinearProgress-barColorPrimary barColorPrimary"
+      />
+    </div>
+  </div>
+</body>
+`;
+
+exports[`ProgressBar should render indeterminate progress bar 1`] = `
+<body>
+  .c0.c0.c0 {
+  border: none;
+  height: 4px;
+  background-color: rgba(110,158,150,0.2);
+}
+
+.c0.c0.c0 .bar {
+  background-color: #6E9E96;
+}
+
+<div>
+    <div
+      class="MuiLinearProgress-root root MuiLinearProgress-colorPrimary colorPrimary c0 MuiLinearProgress-indeterminate"
+      role="progressbar"
+    >
+      <div
+        class="MuiLinearProgress-bar bar MuiLinearProgress-barColorPrimary barColorPrimary MuiLinearProgress-bar1Indeterminate bar1Indeterminate"
+      />
+      <div
+        class="MuiLinearProgress-bar bar MuiLinearProgress-bar2Indeterminate bar2Indeterminate MuiLinearProgress-barColorPrimary barColorPrimary"
+      />
+    </div>
+  </div>
+</body>
+`;
+
+exports[`ProgressBar should render progress bar 1`] = `
+.c0.c0.c0 {
+  border: none;
+  height: 4px;
+  background-color: rgba(110,158,150,0.2);
+}
+
+.c0.c0.c0 .bar {
+  background-color: #6E9E96;
+}
+
+<body>
+  <div>
+    <div
+      class="MuiLinearProgress-root root MuiLinearProgress-colorPrimary colorPrimary c0 MuiLinearProgress-indeterminate"
+      role="progressbar"
+    >
+      <div
+        class="MuiLinearProgress-bar bar MuiLinearProgress-barColorPrimary barColorPrimary MuiLinearProgress-bar1Indeterminate bar1Indeterminate"
+      />
+      <div
+        class="MuiLinearProgress-bar bar MuiLinearProgress-bar2Indeterminate bar2Indeterminate MuiLinearProgress-barColorPrimary barColorPrimary"
+      />
+    </div>
+  </div>
+</body>
+`;
+
+exports[`ProgressBar should render progress bar custom foreground 1`] = `
+<body>
+  .c0.c0.c0 {
+  border: none;
+  height: 4px;
+  background-color: rgba(28,193,140,0.2);
+}
+
+.c0.c0.c0 .bar {
+  background-color: #1CC18C;
+}
+
+<div>
+    <div
+      class="MuiLinearProgress-root root MuiLinearProgress-colorPrimary colorPrimary c0 MuiLinearProgress-determinate"
+      foreground="success"
+      role="progressbar"
+    >
+      <div
+        class="MuiLinearProgress-bar bar MuiLinearProgress-barColorPrimary barColorPrimary MuiLinearProgress-bar1Determinate bar1Determinate"
+      />
+    </div>
+  </div>
+</body>
+`;

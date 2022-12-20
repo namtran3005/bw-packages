@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CircularProgress should render circular progress 1`] = `
+.c0.c0.c0 {
+  border: none;
+  height: 16px;
+  color: #2C232E;
+}
+
+<body>
+  <div>
+    <div
+      class="MuiCircularProgress-root c0 MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+      role="progressbar"
+      style="width: 40px; height: 40px;"
+    >
+      <svg
+        class="MuiCircularProgress-svg"
+        viewBox="22 22 44 44"
+      >
+        <circle
+          class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+          cx="44"
+          cy="44"
+          fill="none"
+          r="20"
+          stroke-width="4"
+        />
+      </svg>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`CircularProgress should render circular progress custom foreground 1`] = `
+<body>
+  .c0.c0.c0 {
+  border: none;
+  height: 16px;
+  color: #1CC18C;
+}
+
+<div>
+    <div
+      aria-valuenow="0"
+      class="MuiCircularProgress-root c0 MuiCircularProgress-colorPrimary"
+      foreground="success"
+      role="progressbar"
+      style="width: 40px; height: 40px; transform: rotate(0.000deg);"
+    >
+      <svg
+        class="MuiCircularProgress-svg"
+        viewBox="22 22 44 44"
+      >
+        <circle
+          class="MuiCircularProgress-circle"
+          cx="44"
+          cy="44"
+          fill="none"
+          r="20"
+          stroke-width="4"
+          style="stroke-dasharray: 125.664; stroke-dashoffset: 125.664px;"
+        />
+      </svg>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`CircularProgress should render determinate circular progress 1`] = `
+<body>
+  .c0.c0.c0 {
+  border: none;
+  height: 16px;
+  color: #2C232E;
+}
+
+<div>
+    <div
+      aria-valuenow="0"
+      class="MuiCircularProgress-root c0 MuiCircularProgress-colorPrimary"
+      role="progressbar"
+      style="width: 40px; height: 40px; transform: rotate(0.000deg);"
+    >
+      <svg
+        class="MuiCircularProgress-svg"
+        viewBox="22 22 44 44"
+      >
+        <circle
+          class="MuiCircularProgress-circle"
+          cx="44"
+          cy="44"
+          fill="none"
+          r="20"
+          stroke-width="4"
+          style="stroke-dasharray: 125.664; stroke-dashoffset: 125.664px;"
+        />
+      </svg>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`CircularProgress should render indeterminate circular progress 1`] = `
+<body>
+  .c0.c0.c0 {
+  border: none;
+  height: 16px;
+  color: #2C232E;
+}
+
+<div>
+    <div
+      class="MuiCircularProgress-root c0 MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+      role="progressbar"
+      style="width: 40px; height: 40px;"
+    >
+      <svg
+        class="MuiCircularProgress-svg"
+        viewBox="22 22 44 44"
+      >
+        <circle
+          class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+          cx="44"
+          cy="44"
+          fill="none"
+          r="20"
+          stroke-width="4"
+        />
+      </svg>
+    </div>
+  </div>
+</body>
+`;

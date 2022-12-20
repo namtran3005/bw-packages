@@ -1,0 +1,25 @@
+name: release
+
+on:
+  push:
+    branches:
+      - "master"
+    tags:
+      - "!*"
+
+jobs:
+  release:
+    runs-on: [self-hosted]
+    container: node:latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: git config --global user.email "release@nuri.com"
+      - run: git config --global user.name "nuri-release"
+      - run: echo "always-auth=true" > .npmrc
+      - run: echo "@bitwala-cryptobank-squad:registry=https://github.bitwa.la/_registry/npm" >> .npmrc
+      - run: echo "//github.bitwa.la/_registry/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> .npmrc
+      - run: yarn --frozen-lockfile
+      - run: yarn release
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: git push origin --follow-tags

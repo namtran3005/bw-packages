@@ -1,0 +1,1 @@
+export { TransactionsEmailLogsModel } from './model';

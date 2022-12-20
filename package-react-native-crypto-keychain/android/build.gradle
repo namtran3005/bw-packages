@@ -1,0 +1,50 @@
+apply plugin: 'com.android.library'
+
+buildscript {
+  repositories {
+    google()
+    jcenter()
+  }
+
+  dependencies {
+    classpath 'com.android.tools.build:gradle:3.4.2'
+  }
+}
+
+def safeExtGet(prop, fallback) {
+    rootProject.ext.has(prop) ? rootProject.ext.get(prop) : fallback
+}
+
+android {
+    compileSdkVersion safeExtGet('compileSdkVersion', 28)
+    buildToolsVersion safeExtGet('buildToolsVersion', '28.0.3')
+
+  defaultConfig {
+    minSdkVersion safeExtGet('minSdkVersion', 23)
+    targetSdkVersion safeExtGet('targetSdkVersion', 28)
+    versionCode 1
+    versionName "1.0.1"
+  }
+
+  compileOptions {
+    sourceCompatibility JavaVersion.VERSION_1_8
+    targetCompatibility JavaVersion.VERSION_1_8
+  }
+
+  lintOptions {
+    abortOnError false
+  }
+}
+
+repositories {
+  mavenLocal()
+  google()
+  jcenter()
+}
+
+dependencies {
+  implementation 'androidx.appcompat:appcompat:1.1.0'
+  implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha03'
+  implementation 'androidx.biometric:biometric:1.0.0'
+  implementation 'com.facebook.react:react-native:+'
+}

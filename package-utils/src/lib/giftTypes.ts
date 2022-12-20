@@ -1,0 +1,4 @@
+export enum GiftTypes {
+  REFERRAL_PAYMENT = 'REFERRAL_PAYMENT',
+  PROMO_PAYOUT = 'PROMO_PAYOUT',
+}

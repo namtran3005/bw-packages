@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grid should render Grid 1`] = `
+.c0 {
+  min-height: auto;
+  box-sizing: border-box;
+}
+
+<GridComponent
+  className="c0"
+  fullHeight={false}
+/>
+`;
+
+exports[`Grid should render Grid RootComponent 1`] = `
+<WithStyles(ForwardRef(Grid))
+  spacing={0}
+/>
+`;
+
+exports[`Grid should render Grid full height 1`] = `
+.c0 {
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
+<GridComponent
+  className="c0"
+  fullHeight={true}
+/>
+`;

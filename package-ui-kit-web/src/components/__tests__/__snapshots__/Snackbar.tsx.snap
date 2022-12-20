@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snackbar should render Snackbar 1`] = `
+<Snackbar
+  anchorOrigin={
+    Object {
+      "horizontal": "center",
+      "vertical": "top",
+    }
+  }
+  message={
+    <Body
+      foreground="white"
+    />
+  }
+  open={true}
+/>
+`;

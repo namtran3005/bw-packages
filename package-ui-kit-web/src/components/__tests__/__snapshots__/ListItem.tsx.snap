@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListItem should render ListItem 1`] = `
+.c0.c0.c0 {
+  box-shadow: 0 0 0 transparent;
+  -webkit-transition: 150ms cubic-bezier(.62,.28,.23,.99);
+  transition: 150ms cubic-bezier(.62,.28,.23,.99);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.c0.c0.c0:hover {
+  box-shadow: none !important;
+}
+
+.c0.c0.c0:before,
+.c0.c0.c0:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  -webkit-transition: width 150ms cubic-bezier(.62,.28,.23,.99);
+  transition: width 150ms cubic-bezier(.62,.28,.23,.99);
+}
+
+.c0.c0.c0:after {
+  width: 0px;
+}
+
+.c0.c0.c0:before {
+  width: 0px;
+}
+
+<body>
+  <div>
+    <li
+      class="MuiListItem-root c0 MuiListItem-gutters"
+    />
+  </div>
+</body>
+`;
+
+exports[`ListItem should render selected ListItem 1`] = `
+<body>
+  .c0.c0.c0 {
+  box-shadow: 0 0 0 transparent;
+  -webkit-transition: 150ms cubic-bezier(.62,.28,.23,.99);
+  transition: 150ms cubic-bezier(.62,.28,.23,.99);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.c0.c0.c0:hover {
+  box-shadow: none !important;
+}
+
+.c0.c0.c0:before,
+.c0.c0.c0:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  -webkit-transition: width 150ms cubic-bezier(.62,.28,.23,.99);
+  transition: width 150ms cubic-bezier(.62,.28,.23,.99);
+}
+
+.c0.c0.c0:after {
+  width: 4px;
+}
+
+.c0.c0.c0:before {
+  width: 12px;
+}
+
+<div>
+    <li
+      class="MuiListItem-root c0 selected MuiListItem-gutters"
+    />
+  </div>
+</body>
+`;

@@ -1,0 +1,98 @@
+name: release
+permissions:
+  packages: write
+  contents: write
+on:
+  repository_dispatch:
+    types: [figma-change]
+  push:
+    branches:
+      - "main"
+    tags:
+      - "!*"
+
+jobs:
+  generate:
+    runs-on: [self-hosted]
+    container: node:latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: yarn --frozen-lockfile
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: yarn build:generate
+        env:
+          FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
+          FIGMA_PASSCODE: ""
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: yarn build:storybook
+        env:
+          NODE_OPTIONS: --max_old_space_size=4096
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: yarn build:package
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: yarn build:webhook
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: yarn figma:version
+        env:
+          FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
+          FIGMA_PASSCODE: ""
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: tar -zcf build.tar.gz ./build
+      - uses: actions/upload-artifact@v2
+        with:
+          name: build
+          path: build.tar.gz
+      - uses: actions/upload-artifact@v2
+        with:
+          name: package-json
+          path: package.json
+  release:
+    runs-on: [self-hosted]
+    container: node:latest
+    needs: [generate]
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/download-artifact@v2
+        with:
+          name: build
+      - uses: actions/download-artifact@v2
+        with:
+          name: package-json
+      - run: tar -xzf build.tar.gz
+      - run: git config --global user.email "release@nuri.com"
+      - run: git config --global user.name "nuri-release"
+      - run: npm publish
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: git push origin --follow-tags
+  storybook:
+    runs-on: [self-hosted]
+    container: hashicorp/terraform:latest
+    needs: [generate]
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/download-artifact@v2
+        with:
+          name: build
+      - run: apk update && apk add python3 yarn curl && ln -sf python3 /usr/bin/python
+      - run: tar -xzf build.tar.gz
+      - run: yarn install --frozen-lockfile --production
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: git config --global url."https://oauth2:${{ secrets.GITHUB_TOKEN }}@github.bitwa.la".insteadOf https://github.bitwa.la
+      - run: terraform -chdir=./infrastructure init
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_ROLE_ARN: ${{ secrets.AWS_ROLE_ARN }}
+      - run: terraform -chdir=./infrastructure apply -auto-approve
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_ROLE_ARN: ${{ secrets.AWS_ROLE_ARN }}
+          TF_VAR_figma_token: ${{ secrets.FIGMA_TOKEN }}
+          TF_VAR_github_token: ${{ secrets.GITHUB_TOKEN }}
+          TF_VAR_figma_team_id: ${{ secrets.FIGMA_TEAM_ID }}

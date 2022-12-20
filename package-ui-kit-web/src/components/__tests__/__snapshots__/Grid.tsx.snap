@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grid should render grid item 1`] = `
+<WithStyles(ForwardRef(Grid))
+  item={true}
+/>
+`;
+
+exports[`Grid should render grid with grid item 1`] = `
+<Grid
+  container={true}
+>
+  <GridItem />
+</Grid>
+`;
+
+exports[`Grid should render grid with inner grid item 1`] = `
+<Grid
+  container={true}
+>
+  <GridItem />
+</Grid>
+`;
+
+exports[`Grid should render inner grid item 1`] = `
+<WithStyles(ForwardRef(Grid))
+  item={true}
+/>
+`;

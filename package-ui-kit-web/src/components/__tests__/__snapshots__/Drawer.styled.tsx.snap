@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Drawer should render drawer 1`] = `
+.c0 .paper {
+  min-width: 240px;
+  background: transparent;
+}
+
+<WithStyles(ForwardRef(Drawer))
+  className="c0"
+/>
+`;

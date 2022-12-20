@@ -1,0 +1,42 @@
+{
+  "name": "@bitwala-cryptobank-squad/defi-grpc-client",
+  "description": "DeFi Core API grpc wrapper client",
+  "version": "0.0.3",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "clean": "rm -rf build",
+    "prepare": "pnpm run build",
+    "test": "pnpm run test:lint && pnpm run test:build",
+    "test:lint": "eslint 'src/**/*.ts' --color -c ./.eslintrc.js",
+    "test:build": "tsc --noEmit",
+    "test:unit": "jest src/ --passWithNoTests",
+    "build": "pnpm run clean && tsc"
+  },
+  "publishConfig": {
+    "registry": "https://github.bitwa.la/_registry/npm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.bitwa.la/bitwala-cryptobank-squad/defi-grpc-client"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "@bitwala-cryptobank-squad/defi-proto": "0.0.2",
+    "@nuri/grpc-client": "0.0.4"
+  },
+  "devDependencies": {
+    "@bitwala/eslint-config": "0.4.2",
+    "@types/jest": "28.1.6",
+    "@types/node": "14.11.5",
+    "jest": "27.3.1",
+    "ts-jest": "27.0.7",
+    "typescript": "4.7.4"
+  },
+  "resolutions": {
+    "jest-environment-jsdom": "27.3.1"
+  }
+}

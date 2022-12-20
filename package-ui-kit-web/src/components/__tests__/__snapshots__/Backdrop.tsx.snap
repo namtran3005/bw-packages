@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Backdrop should render closed Backdrop 1`] = `
+<body>
+  .c0.c0.c0 {
+  background: rgba(240,240,240,0.8);
+  inset: 0px;
+  pointer-events: initial;
+  position: fixed;
+  -webkit-transition: opacity 220ms ease 0s;
+  transition: opacity 220ms ease 0s;
+  padding: 32px;
+}
+
+<div>
+    <div
+      aria-hidden="true"
+      class="MuiBackdrop-root c0"
+      style="opacity: 0; visibility: hidden;"
+    />
+  </div>
+</body>
+`;
+
+exports[`Backdrop should render open Backdrop 1`] = `
+.c0.c0.c0 {
+  background: rgba(240,240,240,0.8);
+  inset: 0px;
+  pointer-events: initial;
+  position: fixed;
+  -webkit-transition: opacity 220ms ease 0s;
+  transition: opacity 220ms ease 0s;
+  padding: 32px;
+}
+
+<body>
+  <div>
+    <div
+      aria-hidden="true"
+      class="MuiBackdrop-root c0"
+      style="opacity: 1; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+    />
+  </div>
+</body>
+`;

@@ -1,0 +1,854 @@
+{
+  "index": {
+    "helpCentreUrl": "https://support.nuri.com",
+    "supportCenterUrl": "https://support.nuri.com/hc/en-gb"
+  },
+  "footer": {
+    "needAssistance": "Need assistance?",
+    "happyToHelp": "Our customer support team is happy to help",
+    "contactUs": "Contact us",
+    "gettingThisMessage": "You are getting this message because you signed up to Nuri.",
+    "aBrandOf": "Nuri GmbH",
+    "streetName": "Prinzessinnenstraße 19/20,",
+    "postal": "10969 Berlin.",
+    "boardOfManagement": "Board of Management | Christoph Iwaniez, Jan Goslicki, Kristina Walcker-Mayer",
+    "commercialRegister": "Commercial register | HRB173698B, Charlottenburg",
+    "imprint": "Imprint"
+  },
+  "emails": {
+    "csdAdminAccounts": {
+      "subject": "[Internal] message",
+      "adminMessage": "Admin Message",
+      "textPart": "Admin account email: {{message}}"
+    },
+    "csdMissingTaxInfoDays": {
+      "subject": "Please add your tax info",
+      "title": "A short request from us",
+      "hi": "Hi {{firstName}},",
+      "intro": {
+        "paragraphs": {
+          "1": "Please add your primary tax residency and tax identification number (TIN) to your profile.",
+          "2": "It takes just a minute, we promise."
+        }
+      },
+      "why": {
+        "heading": "Why do we need this info?",
+        "paragraph": "German law obliges all banks, including our partner Solarisbank, to ask for this information within 90 days of account opening."
+      },
+      "how": {
+        "heading": "How to add your tax information:",
+        "steps": {
+          "1": "Log in",
+          "2": "Navigate to Profile",
+          "3": "Navigate to Tax Information",
+          "4": "Add your tax information"
+        }
+      },
+      "cta": "Add My Tax Information",
+      "contactSupport": "If you can’t add your tax information, please contact our customer support team at support@nuri.com.",
+      "thanks": "Team Nuri<br>Your future awaits. 🌱",
+      "textPart": "Hi {{firstName}}, Please add your primary tax residency and tax identification number (TIN) to your profile. It takes just a minute, we promise. Why do we need this info? German law obliges all banks, including our partner Solarisbank, to ask for this information within 90 days of account opening. How to add your tax information: 1. Log in 2. Navigate to Profile 3. Navigate to tax information 4. Add your tax information. If you can’t add your tax information, please contact our customer support team at support@nuri.com."
+    },
+    "csdMonthlyStatements": {
+      "subject": "Your {{month}} {{year}} statement has arrived",
+      "newStatementAvailable": "Your monthly bank statement is ready to download",
+      "hi": "Hi {{firstName}},",
+      "yourStatementOfAccountFor": "Your statement for {{month}} {{year}} is now available.",
+      "toDownload": "To view or download your monthly statement check your “Profile” in the Nuri App or log in to nuri.com.",
+      "login": " Log in to nuri.com via your desktop",
+      "clickControl": " Click Profile",
+      "clickStatements": " Click Statements",
+      "selectStatementAndClickDownload": " Select the statement and click Download",
+      "cta": "View statement",
+      "thanks": "Team Nuri<br>Your future awaits. 🌱",
+      "textPart": "Hey {{firstName}}, Your bank statement for {{month}} {{year}} is here. You can now visit your account settings via the web based platform and download the statement for the month. To download your statement: 1. Login 2. Click Profile 3. Click Statements 4. Select the statement and click Download."
+    },
+    "mainAccountDownloadApp": {
+      "subject": "You’re almost ready to explore Nuri.",
+      "title": "Three steps to open your Nuri account",
+      "hi": "Hi {{firstName}},",
+      "thankYouForSignup": "You’ve received this email because you’ve signed up to Nuri via our web application. There’s just three short steps left before you can start using Nuri.",
+      "stepOne": "Download the Nuri app",
+      "stepTwo": "Log in",
+      "stepThree": "Verify your identity during a quick video call (8 minutes)",
+      "downloadLinkIntro": "You can download the app below:",
+      "cta": "Download App",
+      "conclusion": "See you on the other side!",
+      "signature": "Team Nuri",
+      "ps": "If you’ve already downloaded the app, logged in and verified – just ignore this mail. You’re ready to start your journey.",
+      "textPart": "Hi {{firstName}},<br>You’ve received this email because you’ve signed up to Nuri via our web application. There’s just three short steps left before you can start using Nuri.<br>Let’s get going:<br>- Download the Nuri app<br>- Log in<br>- Verify your identity during a quick video call (8 minutes)<br>You can download the app below:<br>{{url}}<br>See you on the other side!<br>Team Nuri<br>P.S.If you’ve already downloaded the app, logged in and verified – just ignore this mail. You’re ready to start your journey."
+    },
+    "mainAccountFreeze": {
+      "textPart": "Hi {{firstName}}, Your Nuri account has been temporarily locked. This means you will not be able to login to your account. Any active sessions have also been closed. We will be in touch shortly with further information. Apologies for any inconvenience! Team Nuri",
+      "subject": "Heads up! Account locked",
+      "title": "Your account is temporarily locked",
+      "hi": "Hi {{firstName}},",
+      "thisMeans": "Your Nuri account has been temporarily locked.<br><br>This means you will not be able to login to your account. Any active sessions have also been closed.",
+      "apologies": "We will be in touch shortly with further information.<br><br>Apologies for any inconvenience!",
+      "cta": "Contact Support",
+      "supportLink": "https://support.nuri.com/hc/en-gb/requests/new",
+      "teamNuri": "Team Nuri"
+    },
+    "mainAccountClose": {
+      "title": "Sorry to see you go 💔",
+      "firstName": "Hi {{firstName}},",
+      "received": "We’ve received your request to close your Nuri Account via the Nuri App.",
+      "thisAlso": "This also ends the business relationship between you and Solarisbank regarding the Nuri Bank Account (powered by Solarisbank AG) as well as all other business relationships brokered via the Nuri App (e.g. Nuri Pots).",
+      "effectiveToday": "The account closure becomes effective from today, {{currentDateEN}}.",
+      "teamNuri": "Team Nuri"
+    },
+    "mainAccountScreenedDeclined": {
+      "textPart": "Hi {{firstName}}, <br>We regret to inform you that your request to open a Nuri account has not been approved by our partner Solarisbank. Unfortunately, this means that we cannot offer you an account at this present time.<br>We apologise for the inconvenience.<br>Team Nuri",
+      "subject": "Something went wrong.",
+      "title": "You cannot currently open an account with Nuri.",
+      "hi": "Hi {{firstName}},",
+      "body": "We regret to inform you that your request to open a Nuri account has not been approved by our partner Solarisbank. Unfortunately, this means that we cannot offer you an account at this present time.",
+      "apology": "We apologise for the inconvenience.",
+      "cta": "Contact Support",
+      "thanks": "Team Nuri"
+    },
+    "mainAccountSignup": {
+      "textPart": "Hi {{firstName}}, Thanks for signing up at Nuri and welcome onboard. We can’t wait to show you around! Confirm your email address below you'll be one step closer to opening your Nuri account. {{url}} . Attached below are all legal documents regarding your account, held by our partner bank, solarisBank.",
+      "subject": "Almost there. Confirm your email address.",
+      "almostThere": "Buckle up, your Nuri journey begins here.",
+      "hi": "Hi, please verify your email address:",
+      "thankYouForSignup": "Thanks for signing up at Nuri and welcome onboard; we can’t wait to show you around!",
+      "pleaseConfirm": "Confirm your email address below and you'll be one step closer to opening your Nuri account.",
+      "cta": "Verify Email",
+      "attachedBelow": "Attached are your legal documents regarding your account, held by our partner bank Solarisbank.",
+      "thanks": "Team Nuri",
+      "otherLink": "If the button didn't work, try this link:<br />",
+      "warningTitle": "Warning of Risk:",
+      "warningBody": "Before you start trading cryptocurrencies make sure that you fully understand the risks associated with trading as it carries high risk and can lead to the total loss of your investment. Cryptocurrencies are not suitable for all investors. For further information about our product, visit our ",
+      "supportCenterText": "Support Center"
+    },
+    "mainAccountSignupIneligible": {
+      "textPart": "Hi {{firstName}}, Thanks for taking the time to verify that it's really you! Please confirm your email address below. {{url}} .",
+      "subject": "Verify your email",
+      "almostThere": "Almost there!",
+      "hi": "Hi {{firstName}},",
+      "thankYouForSignup": "Thanks for taking the time to verify that it's really you!",
+      "pleaseConfirm": "Please confirm your email address below.",
+      "cta": "Confirm Email",
+      "thanks": "Thanks,<br>Team Nuri"
+    },
+    "mainAccountUnfreeze": {
+      "textPart": "Hi {{firstName}}, We are happy to inform you that your Nuri account is now unlocked. All functionalities have been restored and you can continue to enjoy Nuri as before.",
+      "subject": "Good news your way: Your account has been unlocked",
+      "accountUnlocked": "Your account is unlocked",
+      "hi": "Hi {{firstName}},",
+      "weAreHappyToInform": "We are happy to inform you that your Nuri account is now unlocked. All functionalities have been restored and you can continue to enjoy Nuri as before.",
+      "thanksForPatience": "Thank you for your patience.",
+      "cta": "Log in now",
+      "thanks": "Thanks,<br>Team Nuri"
+    },
+    "mainCardActivated": {
+      "subject": "Your debit card has been activated",
+      "hi": "Hi {{firstName}},",
+      "cardActivated": "Your shining new Nuri card is now ready to use.<br>",
+      "info": "For the start we’ve put together some useful information, so you can get the best out of your card.<br>",
+      "firstItem": "<b>First payment</b>",
+      "firstItemText": "When you pay with your card for the <b>first time</b>, use your <b>PIN.</b> After that you can also pay contactless.<br>",
+      "secondItem": "<b>Card settings</b>",
+      "canAccessSettingsText": "The easiest way to <b>access the card settings</b> is via the <b>card button</b> on the home or bank screen. You also find the card settings in your <b>profile</b>.<br>In the settings you can:<br>",
+      "firstSetting": "• Lock and unlock the card",
+      "secondSetting": "• Adjust the daily limits",
+      "thirdSetting": "• Change your PIN<br>",
+      "finalLine": "That’s about it. Enjoy your new card.<br>",
+      "thanks": "Team Nuri<br><br>Your future awaits. 🌱",
+      "textPart": "Hi {{firstName}}, Your card was successfully activated!"
+    },
+    "mainCardBlockedBySb": {
+      "subject": "Your debit card has been temporarily locked",
+      "cardLocked": "Your card has been locked",
+      "hi": "Hi {{firstName}},",
+      "weRegretToInform": "We regret to inform you that your debit card has been temporarily locked. This happens as a result of unusual activity on your card.",
+      "toUnlock": "To unlock your card, please contact customer support below. We apologise for the inconvenience.",
+      "cta": "Contact Support",
+      "thanks": "Thanks,<br>Team Nuri",
+      "textPart": "Hi {{firstName}}, We regret to inform you that your debit card has been temporarily locked. This happens as a result of unusual activity on your card. To unlock your card, please contact customer support below. We apologise for the inconvenience."
+    },
+    "mainCreateEthWalletAndroid": {
+      "subject": "Your Ethereum Vault has been created! Important notice inside",
+      "title": "Your Ethereum Vault",
+      "hi": "Hi {{firstName}},",
+      "congrats": "Congratulations on successfully setting up your new Ethereum Vault! You can now send, receive, buy and sell Ether, all from your Ethereum Vault.",
+      "walletSecured": "Your vault is secured via a <b>private key</b>, which is used to sign outgoing transactions and a <b>public key</b>, from which your vault address is derived. <b>Both keys are backed up by the 12-word seed phrase.</b>",
+      "walletIsBoundTo": "The Nuri Ethereum Vault is bound to your mobile device via a cryptographic key stored in your Android phone’s secure element. This means that you can only complete Ether trades and transactions from your smartphone and not from other devices you use to log in to your Nuri account.",
+      "androidDoesnt": "Android doesn’t have the functionality to permanently store your cryptographic key, meaning:  if you uninstall the app, the vault data will be deleted. Not to worry, you can easily retrieve the vault via the Restore Vault Functionality from your app’s Profile, using the 12-word seed phrase.",
+      "forMoreInfo": "For more information regarding your Nuri Ethereum Vault, visit our ",
+      "supportLink": "https://support.nuri.com/hc/en-gb/articles/360010780260",
+      "supportCentre": "support centre",
+      "thanks": "Team Nuri<br>Your future awaits. 🌱",
+      "textPart": "Hi {{firstName}}, Congratulations on successfully setting up your new Ethereum Vault! You can now send, receive, buy and sell Ether, all from your Ethereum Vault. Your vault is secured via a <b>private key</b>, which is used to sign outgoing transactions and a <b>public key</b>, from which your vault address is derived. <b>Both keys are backed up by the 12-word seed phrase.</b>"
+    },
+    "mainCreateEthWalletIos": {
+      "subject": "Your Ethereum Vault has been created! Important notice inside",
+      "title": "Your Ethereum Wallet",
+      "hi": "Hi {{firstName}},",
+      "congrats": "Congratulations on successfully setting up your new Ethereum Vault! You can now send, receive, buy and sell Ether, all from your Ethereum Vault.",
+      "walletSecured": "Your vault is secured via a <b>private key</b>, which is used to sign outgoing transactions and a <b>public key</b>, from which your vault address is derived. <b>Both keys are backed up by the 12-word seed phrase.</b>",
+      "walletIsBoundTo": "The Nuri Ethereum Vault is bound to your mobile device via a cryptographic key stored in your iPhone’s secure enclave. This means that you can only complete Ether trades and transactions from your smartphone and not from other devices you use to log in to your Nuri account.",
+      "unpairIphone": "Because of this security layer, the only way to unpair and delete the vault from your iPhone is to factory-reset the device; the key and the vault’s data will be removed from the keychain. Not to worry, you can easily retrieve the vault via the Restore Vault Functionality from your app’s Profile, using the 12-word seed phrase.",
+      "forMoreInfo": "For more information regarding your Nuri Ethereum Vault, visit our ",
+      "supportLink": "https://support.nuri.com/hc/en-gb/articles/360010780260",
+      "supportCentre": "support centre",
+      "thanks": "Team Nuri<br>Your future awaits. 🌱",
+      "textPart": "Hi {{firstName}}, Congratulations on successfully setting up your new Ethereum Vault! You can now send, receive, buy and sell Ether, all from your Ethereum Vault. Your vault is secured via a <b>private key</b>, which is used to sign outgoing transactions and a <b>public key</b>, from which your vault address is derived. <b>Both keys are backed up by the 12-word seed phrase.</b>"
+    },
+    "mainReferralTransaction": {
+      "subject": "Congratulations, your {{reward}}€ referral bonus is coming soon",
+      "friendJoined": "Your friend just joined Nuri",
+      "hi": "Hi {{firstName}},",
+      "greatJob": "Great job, your friend {{referredUserFirstName}} just joined Nuri and has successfully unlocked your referral-rewards. You are now both eligible for the {{reward}}€ bonus.",
+      "weAim": "We aim to make all payments as fast as possible, however, as we are still fine-tuning this feature, in some cases this can take up to 15 business days.",
+      "youWillBeNotified": "You will be notified once the bonus has been paid out. ",
+      "thanks": "Team Nuri<br>Your future awaits. 🌱",
+      "textPart": "Hi {{firstName}}, Great job, your friend {{referredUserFirstName}} just joined Nuri and has successfully unlocked your referral-rewards. You are now both eligible for the {{reward}}€ bonus. We aim to make all payments as fast as possible, however, as we are still fine-tuning this feature, in some cases this can take up to 15 business days. You will be notified once the bonus has been paid out."
+    },
+    "mainCardClosedBySb": {
+      "subject": "Your debit card has been closed",
+      "cardClosed": "Your card has been closed",
+      "hi": "Hi {{firstName}},",
+      "weRegretToInform": "We regret to inform you that your card has been permanently closed. This is because of potentially fraudulent activity on your card.",
+      "pleaseNote": "Please note, this does not affect any other functionality in your account. If you would like to order a replacement card, please go to 'Profile - Card settings' in your account.",
+      "weApologise": "We apologise for the inconvenience.",
+      "cta": "Log in now",
+      "thanks": "Thanks,<br>Team Nuri",
+      "textPart": "Hi {{firstName}}, We regret to inform you that your card has been permanently closed. This is because of potentially fraudulent activity on your card. Please note, this does not affect any other functionality in your account. If you would like to order a replacement card, please go to 'Profile - Card settings' in your account. We apologise for the inconvenience."
+    },
+    "mainCardOrder": {
+      "textPart": "Congrats, {{firstName}}! Your card should arrive within the next 10 business days at your current address: {{firstName}} {{lastName}}, {{line1}} {{line2}} {{postalCode}} {{city}} {{country}}",
+      "subject": "Your card is on the way",
+      "onItsWay": "Your card is on its way!",
+      "congratulations": "Congrats, {{firstName}}!",
+      "cardShouldArrive": "Your card should arrive within the next 10 business days at your current address:",
+      "thanks": "Team Nuri<br><br>Your future awaits. 🌱",
+      "ifAddressIncorrect": "If the address above is incorrect, please contact our customer support team below."
+    },
+    "mainCardPinChange": {
+      "subject": "You’ve changed your PIN on your Nuri debit card.",
+      "pinSet": "Your new PIN has been set",
+      "hi": "Hi {{firstName}},",
+      "pinChangeSuccess": "Your PIN was successfully changed. You will need to perform your next transaction using your new PIN to re-enable contactless functionality on the card.",
+      "thanks": "Team Nuri<br>Your future awaits. 🌱",
+      "textPart": "Hi {{firstName}}, Your PIN was successfully changed. You will need to perform your next transaction using your new PIN to re-enable contactless functionality on the card."
+    },
+    "mainCardUnblockedBySb": {
+      "subject": "Your card has been unlocked",
+      "cardUnlocked": "Your card has been unlocked",
+      "hi": "Hi {{firstName}},",
+      "happyToInform": "We are happy to inform you that your card has been unlocked. All functions have been restored and you can now use it as usual.",
+      "thanksForPatience": "Thank you for your patience.",
+      "thanks": "Thanks,<br>Team Nuri",
+      "textPart": "Hi {{firstName}}, We are happy to inform you that your card has been unlocked. All functions have been restored and you can now use it as usual. Thank you for your patience."
+    },
+    "mainCreateWallet": {
+      "textPart": "Hi {{firstName}}, Congratulations on successfully setting up your new vault! You can now send, receive, buy and sell Bitcoin, all from your Vault. Your wallet reference key {{bitgoXpub}} Please keep this email as a record of it.",
+      "subject": "Your Vault has been created! Important notice inside",
+      "btcWallet": "Your Bitcoin Vault",
+      "hi": "Hi {{firstName}},",
+      "congratulations": "Congratulations on successfully setting up your new vault! You can now send, receive, buy and sell Bitcoin, all from your Vault.",
+      "referenceKey": "Your vault reference key",
+      "pleaseKeepThisEmail": "Please keep this email as a record of it. For more information about reference keys, click ",
+      "here": "here",
+      "thanks": "Team Nuri,<br>Your future awaits. 🌱"
+    },
+    "mainEmailChanged": {
+      "textPart": "Hi {{firstName}}, Your account email address has been successfully changed to {{newEmail}}. If this was not you, please contact support immediately on +493023980075*",
+      "subject": "Your Nuri email address has been changed",
+      "title": "Email address changed",
+      "hi": "Hi {{firstName}},",
+      "emailChanged": "Your account email address has been successfully changed to {{newEmail}}.",
+      "notYou": "If this was not you, please contact support immediately on +493023980075*",
+      "thanks": "Team Nuri<br>Your future awaits. 🌱",
+      "availableHours": "*Available Monday to Friday 09:00 - 18:00 (CET)."
+    },
+    "mainAttachedTransactions": {
+      "textPart": "Hi {{firstName}}, Your Nuri banking transactions are ready to download.",
+      "subject": "Your Nuri banking transactions",
+      "title": "Your Nuri banking transactions are ready to download",
+      "hi": "Hi {{firstName}},",
+      "content": "Please find attached a list of all the Banking transactions you have made with Nuri for your records.",
+      "thanks": "Thanks for being a Nuri customer<br> Team Nuri."
+    },
+    "mainAccountStatement": {
+      "textPart": "Hi {{firstName}}, Your statement for December 2022 is now available and attached to this email.",
+      "subject": "Your December 2022 statement has arrived",
+      "title": "Your monthly bank statement is ready to download",
+      "hi": "Hi {{firstName}},",
+      "content": "Your statement for December 2022 is now available and attached to this email.",
+      "thanks": "Team Nuri."
+    },
+    "mainConfirmCurrentEmailAddress": {
+      "textPart": "Please confirm that you want to change the current email address you use with Nuri. To confirm, you need to click the button below within 5 minutes of opening this email. You will then be redirected to Nuri where you can provide your new email address.",
+      "subject": "You can now change your email address",
+      "title": "First step to change your email.",
+      "hi": "Hi {{firstName}},",
+      "cta": "Change Email Address",
+      "thanks": "Your future awaits. 🌱<br>Team Nuri"
+    },
+    "mainSolarisTandCAnnouncement": {
+      "hi": "Hi {{firstName}},",
+      "subject": "Response needed: New Solarisbank T&C",
+      "consentInfo": "We need your consent! Solarisbank has updated its General Terms and Conditions. Such updates are necessary to implement regulatory requirements or to update Solarisbank's range of services. Only with your explicit consent, we and Solarisbank can continue the business relationship with you in a legally secure manner.",
+      "updateAppInfo": "You can give this explicit consent in the app. Make sure to update the iOS/Android app first to access the updated Terms and Conditions.",
+      "declateListTitle": "With your consent, you declare the following:",
+      "declareStep1": "I have received the customer documents by email.",
+      "declareStep2": "I explicitly agree to the contractual terms and conditions contained therein.",
+      "declareStep3": "I agree to continue the business relationship with Solarisbank on the basis of these contractual terms and conditions and thus also before the end of the revocation period.",
+      "rejectChangesInfo": "Of course, you can also reject these changes. However, this could result in us or Solarisbank not being able to maintain the business relationship with you.",
+      "agreeChangesInfo": "If you agree to the changes, the new terms will become effective on 01.08.2022.",
+      "whatIsChangedListTitle": "Here’s what has changed: ",
+      "whatIsChangedStep1": "Among other things, the contract changes include a new amendment clause. The amendment clause now states that Solarisbank can only make material changes to the contract if it has obtained your explicit consent to do so.",
+      "whatIsChangedStep2": "Furthermore, Solarisbank has adjusted its list of prices and services. Please read the list carefully.",
+      "accessDocuments": "You can also access the current customer documents of Solarisbank at any time here: <a href=\"https://www.solarisbank.com/en/customer-information/\">https://www.solarisbank.com/en/customer-information/</a>.",
+      "accessDocumentsInfo": "Under this <a href=\"https://shareeu21.springcm.com/Public/Document/23785/2ba5a712-14d5-ec11-9c52-30e17160d15a/138d3043-14d5-ec11-9c52-30e17160d15a\">Link</a> you can see the changes of the affected terms and conditions.",
+      "questions": "Questions? Please contact our <a href=\"https://support.nuri.com/hc/en-gb/requests/new/\">Customer Support</a>.",
+      "thanks": "Thank you!",
+      "teamNuri": "Team Nuri <br>Your future awaits.🌱"
+    },
+    "mainSolarisTandCUpdate": {
+      "hi": "Hi {{firstName}},",
+      "subject": "Update: Solaris T&C email",
+      "declateListTitle": "We’d like to share some updates about our last email from 02.09.2022 on the new Solaris T&C.",
+      "declareStep1": "It was mentioned in the email that the new T&C became effective on 01.08.2022. Actually, they will <b>only become effective once you accept them in the Nuri app</b> and will not be applied retroactively. We are updating this information also in the Nuri app. Please excuse this error.",
+      "declareStep2": "Attached to this email you find all relevant documents again. <b>Nothing has changed in the documents</b>. This is just to make sure that all Nuri users can access and download them.",
+      "declareStep3": "And <a href=\"https://shareeu21.springcm.com/Public/Document/23785/2ba5a712-14d5-ec11-9c52-30e17160d15a/18c1bc83-5a19-ed11-9c57-30e17160d15a\">here</a> you can view the document with all T&C updates. Again, the document itself hasn’t changed.",
+      "agreeChangesInfo": "<b>If you have already accepted the new T&C or opened your Nuri account after 01.06.2022, that’s perfectly fine. No action is required from your side.</b>",
+      "thanks": "Thank you for your understanding!",
+      "teamNuri": "Team Nuri"
+    },
+    "mainSolarisYellowStatusExistingUsers": {
+      "subject": "A couple of questions to continue using your account",
+      "hi": "Hi {{firstName}},",
+      "intro": "We hope you are enjoying your account. To make sure you can continue to use your account safely, we kindly ask you to answer some short questions about yourself/ your transactions. Our licensed banking partner Solarisbank AG is required by law to collect this information from you to ensure its compliant with regulations and requirements for financial institutions. <br>We would appreciate if you could answer the following questions:",
+      "questions": {
+        "1": "For what purpose have you opened the account?",
+        "2": "Do you use this account as your main account?",
+        "3": "Are there other people who have access to the account?",
+        "4": "What is your current monthly net income?",
+        "5": "What regular receipts and payments can be expected on the account?",
+        "6": "Please provide an official proof of residency such as a state-provided document or a recent utility bill to your name (not older than 3 months). Alternatively, please confirm that the address on your identification card is up to date.",
+        "7": "Please provide a copy of your most recent salary slip/proof of income/proof of university enrollment, depending on your working status. If unemployed, please provide evidence of your livelihood (i.e. wire transfers from spouse, public subsidies, etc.).",
+        "8": "In case you happen to be a Politically Exposed Person (PEP), please provide us with your qualification."
+      },
+      "support": "In order to finalize this process, we kindly ask you to respond within the next 5 days upon receiving this message by replying to this email.",
+      "thanks": "Team Nuri<br>Your future awaits. 🌱"
+    },
+    "mainSolarisYellowStatusNewUsers": {
+      "subject": "A couple of questions before your account is opened",
+      "hi": "Hi {{firstName}},",
+      "intro": {
+        "paragraphs": {
+          "1": "Thanks for signing up at Nuri, and welcome on board.",
+          "2": "In order to finalise the onboarding process, our licensed banking partner Solarisbank AG is required by law to collect this additional information from you before account opening to ensure its compliant with regulations and requirements for financial institutions. <br>We would appreciate if you could answer the following questions:"
+        }
+      },
+      "questions": {
+        "1": "For what purpose do you open the account?",
+        "2": "Do you use this account as your main account?",
+        "3": "Are there other people who have access to the account?",
+        "4": "What is your current monthly net income?",
+        "5": "What regular receipts and payments can be expected on the account?",
+        "6": "Please provide an official proof of residency such as a state-provided document or a recent utility bill to your name (not older than 3 months). Alternatively, please confirm that the address on your identification card is up to date.",
+        "7": "Please provide a copy of your most recent salary slip/proof of income/proof of university enrollment, depending on your working status. If unemployed, please provide evidence of your livelihood (i.e. wire transfers from spouse, public subsidies, etc.).",
+        "8": "In case you happen to be a Politically Exposed Person (PEP), please provide us with your qualification."
+      },
+      "support": "In order to finalize this process, we kindly ask you to respond within the next 5 days upon receiving this message by replying to this email.",
+      "thanks": "Team Nuri<br>Your future awaits. 🌱"
+    },
+    "mainAcceptSolarisTandC": {
+      "hi": "Hi {{firstName}},",
+      "subject": "You accepted the Solarisbank T&C",
+      "acceptedText": "You've accepted the latest Solarisbank Terms & Conditions on {{date}}.",
+      "whatIsChanged": "As a reminder, here’s what changed:",
+      "referenceOnly": "This email is for your reference only. Nothing else to do for you.",
+      "thanks": "Team Nuri <br>Your future awaits.🌱"
+    },
+    "mainRejectSolarisTandC": {
+      "hi": "Hi {{firstName}},",
+      "subject": "You rejected the Solarisbank T&C",
+      "rejectedText": "You've rejected the latest Solarisbank Terms & Conditions on {{date}}.",
+      "whatIsChanged": "As a reminder, here's what changed:",
+      "consequences": "And this is what's going to happen now:",
+      "questions": "Do you have any questions? Or would like to change your decision (which you can do within two months from the above mentioned date)? Please contact our <a href=\"https://support.nuri.com/hc/en-gb/requests/new\">Customer Support</a>.",
+      "thanks": "Team Nuri <br>Your future awaits.🌱"
+    },
+    "mainConfirmNewEmailAddress": {
+      "textPart": "Thanks for entering your new email address. All you have to do is click the button in this email within 5 minutes of opening it. You’ll be redirected to the Nuri App, where you'll finalize your email change.",
+      "subject": "Confirm your new email address",
+      "title": "Second step to change your email.",
+      "hi": "Hi {{firstName}},",
+      "cta": "Open NURI App",
+      "thanks": "Your future awaits. 🌱<br>Team Nuri"
+    },
+    "mainIncomingCryptoTransaction": {
+      "subject": "You've received a new payment",
+      "hi": "Hi {{firstName}},",
+      "youHaveReceived": "You've received {{amountString}} {{walletType}}.",
+      "cta": "View transaction",
+      "thanks": "Thanks,<br>Team Nuri"
+    },
+    "mainIncomingFiatTransaction": {
+      "subject": "You've received a new payment",
+      "hi": "Hi {{firstName}},",
+      "youHaveReceived": "You've received {{amountString}}.",
+      "cta": "View transaction",
+      "thanks": "Thanks,<br>Team Nuri"
+    },
+    "mainIdentificationFailed": {
+      "subject": "Heads up! Your account has been temporarily locked",
+      "hi": "Hi {{firstName}},",
+      "weRegretToInform": "We regret to inform you that your account has been temporarily locked. This is due to an issue with your verification. Unfortunately, this means you will not be able to login to your account and any active sessions will also be logged out. ",
+      "contactSupport": "Please contact customer support below and they will be happy to assist you.",
+      "weApologise": "We apologise for the inconvenience.",
+      "cta": "Contact Support",
+      "thanks": "Thanks,<br>Team Nuri"
+    },
+    "mainPasswordChanged": {
+      "subject": "Your password has been changed",
+      "title": "Password changed",
+      "hi": "Hi {{firstName}},",
+      "passwordChanged": "Your account password has been successfully changed.",
+      "contactSupport": "If this was not you, please contact support immediately on +493023980075*",
+      "thanks": "Team Nuri<br>Your future awaits. 🌱",
+      "supportAvailability": "*Available Monday to Friday 09:00 - 18:00 (CET).",
+      "textPart": "Hi {{firstName}}, Your account password has been successfully changed. If this was not you, please contact support immediately on +493023980075*"
+    },
+    "mainResetPassword": {
+      "subject": "Reset your password",
+      "textPart": "Hi {{firstName}}, We received your request to reset your password. You can do so by clicking on the button below. {{url}}",
+      "forgotYourPassword": "Forgot your password?",
+      "hi": "Hi {{firstName}},",
+      "receivedYourRequest": "We received your request to reset your password. You can do so by clicking on the button below.",
+      "cta": "Reset my password",
+      "thanks": "Thanks,<br>Team Nuri",
+      "didntMake": "If you didn't make this request, please contact customer support below."
+    },
+    "mainSignupWithSameEmail": {
+      "subject": "Are you ready to invest in your future?",
+      "hi": "Hello {{firstName}}",
+      "signUpWithSameEmail": "It looks like you previously tried to sign up with Nuri using this email. If you want to continue the sign up process, you can use the link below to log back in and pick up where you left off.",
+      "thanks": "Sincerely, <br>Nuri Team",
+      "login": "Log in now",
+      "textPart": "Hello {{firstName}}, It looks like you previously tried to sign up with Nuri using this email. If you want to continue the sign up process, you can use the link below to log back in and pick up where you left off."
+    },
+    "mainStandingOrderLastExecution": {
+      "subject": "Your last standing order has been finalised",
+      "hasFinished": "All done! Your standing order has finished",
+      "hi": "Hi {{firstName}},",
+      "wasLastSent": "Your {{frequency}} standing order of {{amountString}} was sent to {{recipient}} for the last time on the {{endExecutionDate}}.",
+      "wouldLikeToContinue": "If you would like this payment to continue, you will need to create a new standing order. You can easily do so by clicking the button below.",
+      "cta": "Create new standing order",
+      "thanks": "Thanks,<br>Team Nuri",
+      "textPart": "Hi {{firstName}}, Your {{frequency}} standing order of {{amountString}} was sent to {{recipient}} for the last time on the {{endExecutionDate}}."
+    },
+    "mainTradingInvoiceBuyCrypto": {
+      "title": "Your {cryptoName} Purchase",
+      "hi": "Hi {{firstName}},",
+      "textPart": "Your {cryptoName} purchase for \\{\\{amountStringOutput\\}\\} {crypto} is currently being processed.",
+      "detailsTitle": "Invoice details:",
+      "transactionId": "Transaction ID",
+      "created": "Created",
+      "amountReceived": "Amount receivable",
+      "amountSpent": "Amount spent",
+      "askQuote": "Ask Quote",
+      "askQuoteContent": "\\{\\{askQuote\\}\\} EUR per {crypto}",
+      "tradingFee": "Trading fee",
+      "networkFee": "Network fee",
+      "tradingFeeContent": "\\{\\{amountStringTradingFeeCrypto\\}\\} {crypto} / \\{\\{amountStringTradingFeeEur\\}\\} EUR",
+      "networkFeeContent": "\\{\\{amountStringNetworkFeeCrypto\\}\\} {crypto} / \\{\\{amountStringNetworkFeeEur\\}\\} EUR",
+      "textInfo": "You can view the status of your transaction at any time by going to the homepage of your account. We’ll let you know once the transaction is complete.",
+      "cta": "View Transaction",
+      "thanks": "Team Nuri<br>Your future awaits. 🌱"
+    },
+    "mainTradingInvoiceBuyBtc": {
+      "subject": "Your Bitcoin purchase is being processed",
+      "textPart": "Your Bitcoin purchase for {{amountStringOutput}} BTC is currently being processed."
+    },
+    "mainTradingInvoiceBuyEth": {
+      "subject": "Your Ether purchase is being processed",
+      "textPart": "Your Ether purchase for {{amountStringOutput}} ETH is currently being processed."
+    },
+    "mainTradingInvoiceSellCrypto": {
+      "title": "Your {cryptoName} sale is being processed.",
+      "hi": "Hi {{firstName}},",
+      "textPart": "Your {cryptoName} sale for \\{\\{amountStringOutput\\}\\} Euro from your wallet is currently being processed.",
+      "detailsTitle": "Invoice details:",
+      "transactionId": "Transaction ID",
+      "created": "Created",
+      "amountReceived": "Amount receivable",
+      "amountSpent": "Amount spent",
+      "bidQuote": "Bid Quote",
+      "bidQuoteContent": "\\{\\{bidQuote\\}\\} EUR per {crypto}",
+      "tradingFee": "Trading fee",
+      "networkFee": "Network fee",
+      "tradingFeeContent": "\\{\\{amountStringTradingFeeCrypto\\}\\} {crypto} / \\{\\{amountStringTradingFeeEur\\}\\} EUR",
+      "networkFeeContent": "\\{\\{amountStringNetworkFeeCrypto\\}\\} {crypto} / \\{\\{amountStringNetworkFeeEur\\}\\} EUR",
+      "textInfo": "You can view the status of your transaction at any time by going to the homepage of your account. We’ll let you know once the transaction is complete.",
+      "cta": "View Transaction",
+      "thanks": "Team Nuri<br>Your future awaits. 🌱"
+    },
+    "mainTradingInvoiceSellBtc": {
+      "subject": "Your Bitcoin sale is being processed",
+      "textPart": "Your Bitcoin sale for {{amountStringOutput}} Euro from your wallet is currently being processed."
+    },
+    "mainTradingInvoiceSellEth": {
+      "subject": "Your Ether sale is being processed",
+      "textPart": "Your Ether sale for {{amountStringOutput}} Euro from your wallet is currently being processed."
+    },
+    "mainCardFraudCasePending": {
+      "subject": "We’ve spotted suspicious activity on your card.",
+      "title": "Keep your card secure.",
+      "hi": "Hi {{firstName}},",
+      "unusualActivity": "An unusual transaction has been detected on your card. As a security measure, the transaction has been automatically declined.",
+      "transactionDetailsHeading": "Transaction details:",
+      "transactionDetails": "{{amountString}} at {{merchantName}} on {{transactionTime}}",
+      "actionRequired": "Action required:",
+      "actionRequiredInfo": "please confirm whether the transaction was made by you from your transaction history.",
+      "madeByYou": "If this transaction <b>was</b> made by you:",
+      "madeByYouStep1": "Log in to the mobile or web app",
+      "madeByYouStep2": "Click on the relevant transaction from your transaction history and confirm you made it",
+      "madeByYouStep3": "You will have 10 minutes to reattempt the transaction",
+      "notMadeByYou": "If this transaction was <b>not</b> made by you:",
+      "notMadeByYouStep1": "Log in to the mobile or web app",
+      "notMadeByYouStep2": "Click on the relevant transaction from your transaction history and confirm you <b>didn’t</b> make it (your card will be instantly blocked)",
+      "cardReorderTip": "If you confirm you didn’t make the transaction, we strongly recommend ordering a new card as it has been subject to fraudulent activity.",
+      "reorderCard": "To order a new card:",
+      "reorderCardStep1": "Log in to the mobile or web app",
+      "reorderCardStep2": "Go to ‘Profile’ - ‘Card Settings’",
+      "reorderCardStep3": "Then follow the ‘Order card’ process",
+      "anyQuestions": "If you have any further questions, please contact support below.",
+      "cta": "Open App",
+      "thanks": "Team Nuri<br>Your future awaits. 🌱",
+      "textPart": "An unusual transaction has been detected on your card. Transaction details: {{amountString}} at {{merchantName}} at {{transactionTime}}"
+    },
+    "mainCardFraudCaseTimeout": {
+      "subject": "We’ve locked your Nuri debit card for your security.",
+      "title": "Your card has been locked",
+      "hi": "Hi {{firstName}},",
+      "cardBlocked": "Unfortunately, your debit card has been temporarily locked due to unusual activity on your card.",
+      "transactionDetailsHeading": "Transaction details:",
+      "transactionDetails": "{{amountString}} at {{merchantName}} at {{transactionTime}}",
+      "madeByYou": "If you made this transaction, you can unlock your card from your account:",
+      "madeByYouStep1": "Log in to the mobile or web app",
+      "madeByYouStep2": "Go to ‘Profile’",
+      "madeByYouStep3": "Then ‘Card Settings’ and unlock your card",
+      "cardReorderTip": "If you did not make this transaction, your card has been subject to fraudulent activity and we strongly recommend that you order a new card.",
+      "reorderCard": "To order a new card:",
+      "reorderCardStep1": "Log in to the mobile or web app",
+      "reorderCardStep2": "Go to ‘Profile’ - ‘Card Settings’",
+      "reorderCardStep3": "Then follow the ‘Order card’ process",
+      "anyQuestions": "If you have any further questions, please contact support below.",
+      "cta": "Contact Support",
+      "thanks": "Team Nuri<br>Your future awaits. 🌱",
+      "textPart": "Unfortunately, your debit card has been temporarily locked due to unusual activity on your card. Transaction details: {{amountString}} at {{merchantName}} at {{transactionTime}}"
+    },
+    "mainAccountSeizure": {
+      "subject": "Heads up! Important information inside",
+      "title": "Bank account seizure - balance on your Nuri Bank Account blocked",
+      "hi": "Hi {firstName},",
+      "textPart1": "We regret to inform you that your bank account balance has been seized due to {seizure_type}. This occurs when the bank account balance and corresponding assets of a person owing debt are seized on the basis of a court order or an order by a public authority.",
+      "textPart2": "In compliance with legal regulations our banking partner Solarisbank AG will therefore block the seizure amount on your account. In case your account balance is higher than the seizure amount, you will be able to access the remaining balance. If it is lower, your funds will effectively be blocked until the seizure is either suspended or terminated - i.e. because the claim which gave reason for the seizure is fulfilled.",
+      "textPart3": "In order to fulfil the claim which gave reason for the seizure and be able to use your Nuri account as usual again, you can instruct us to have our banking partner Solarisbank AG transfer the full seizure amount to the creditor for you. Simply fill out the attached transfer form and send it back to us.",
+      "seizureInformation": "Here are the details of the seizure:",
+      "seizure": {
+        "title": "SEIZURE",
+        "id": "<b>Seizure ID:</b> {seizureId}",
+        "notifyDate": "<b>Date of notification:</b> {deliveryDate}",
+        "decisionDate": "<b>Date of the decision / Order:</b> {enactmentDate}",
+        "authorityName": "<b>Public authority / Court:</b> {authorityName}",
+        "fileNumber": "<b>File number of the decision / Order:</b> {resolutionCaseNumber}",
+        "type": "<b>Seizure type:</b> {seizureType}",
+        "amount": "<b>Amount to be seized in EUR:</b> {amount}",
+        "additionalCost": "<b>Plus court and attorney fees if applicable, costs of delivery in EUR:</b> {additionalCost}"
+      },
+      "customerInformation": {
+        "title": "CUSTOMER INFORMATION",
+        "name": "<b>Name:</b> {debtorName}",
+        "address": "<b>Address:</b> {debtorAddress}",
+        "customerId": "<b>Customer ID:</b> {customerId}",
+        "iban": "<b>IBAN:</b> {customerIban}",
+        "availableBalance": "<b>Account balance at the time of the seizure in EUR:</b> {availableBalance}"
+      },
+      "creditorInformation": {
+        "title": "CREDITOR INFORMATION",
+        "name": "<b>Name:</b> {creditorName}",
+        "address": "<b>Address:</b> {creditorAddress}",
+        "iban": "<b>IBAN:</b> {creditorIban}"
+      },
+      "creditorRepresentation": {
+        "title": "REPRESENTATION OF THE CREDITOR",
+        "name": "<b>Name:</b> {creditorRepresentativeName}",
+        "address": "<b>Address:</b> {creditorRepresentativeAddress}",
+        "fileNumber": "<b>File number:</b> {creditorRepresentativeCaseNumber}",
+        "iban": "<b>IBAN:</b> {creditorRepresentativeIban}"
+      },
+      "anyQuestions": "If you have any further queries, please contact the representation of the creditor.",
+      "cta": "Contact Support",
+      "thanks": "Thanks,<br>Team Nuri"
+    },
+    "mainCryptoLendingAccountOpened": {
+      "subject": "You’re in: Your Bitcoin Interest account is now open.",
+      "title": "Watch your bitcoin grow",
+      "hi": "Hi {{firstName}},",
+      "accountOpened": "Good news! Your Bitcoin Interest Account has been successfully created, which means you can now start earning interest on your bitcoin.",
+      "cta": "Invest Bitcoin",
+      "tnc": "Read the terms and conditions of the Interest Account here:",
+      "btnc": "Nuri Terms and Conditions",
+      "btncLink": "https://nuri.com/uploads/Bitcoin_interest_account_terms_and_conditions_c37d325d29.pdf",
+      "rwn": "Risk Warning Notice",
+      "rwnLink": "https://nuri.com/uploads/Nuri_Bitcoin_Interest_Account_Risk_Warning_EN_b93582385c.pdf",
+      "thanks": "Team Nuri<br><br>Your future awaits. 🌱"
+    },
+    "mainCryptoLendingAccountDeclined": {
+      "subject": "We were unable to open your Bitcoin Interest Account.",
+      "title": "Notice: Your Bitcoin Interest Account.",
+      "hi": "Hi {{firstName}},",
+      "accountDeclined": "We’re letting you know it’s not possible to open a Bitcoin Interest Account at this current time. We’re sorry for the inconvenience and we hope we can offer this service to you in the near future.",
+      "questions": "If you have any questions, please do not hesitate to contact our customer support team below.",
+      "cta": "Contact support",
+      "thanks": "Team Nuri"
+    },
+    "mainCryptoLendingInvestmentPending": {
+      "subject": "Your Bitcoin Interest Investment",
+      "title": "Your transaction is being processed.",
+      "hi": "Hi {{firstName}},",
+      "yourInterest": "Your Bitcoin Interest Investment for {{amount}} Bitcoin is currently being processed.",
+      "invoiceDetails": "Invoice details:",
+      "txId": "Transaction ID",
+      "created": "Created",
+      "amount": "Amount Invested",
+      "networkFee": "Network Fee",
+      "youCanViewStatus": "You can view the status of your investment at any time by going to the activity screen of your account.",
+      "willLetYouKnow": "We’ll let you know once the investment is complete.",
+      "cta": "View Investment",
+      "thanks": "Team Nuri,<br>Your future awaits. 🌱"
+    },
+    "mainCryptoLendingInvestmentSettled": {
+      "subject": "Your Bitcoin Interest Investment",
+      "title": "Your Bitcoin Interest Investment is now complete.",
+      "hi": "Hi {{firstName}},",
+      "yourInterest": "Your Bitcoin Interest Investment for {{amount}} BTC has been completed",
+      "cta": "View Investment",
+      "thanks": "Team Nuri,<br><br>Your future awaits. 🌱"
+    },
+    "mainCryptoTaxReportGenerated": {
+      "subject": "Your crypto tax report is ready to download.",
+      "title": "Your tax report is just a few clicks away.",
+      "hey": "Hey {{firstName}},",
+      "done": "Crypto taxes have never been easier!<br><br> Your Crypto Tax report has been successfully generated and you can now download the report via our web platform.",
+      "cta": "Download",
+      "thanks": "Thanks for investing with Nuri,<br><br>Team Nuri<br><br>Your future awaits. 🌱"
+    },
+    "mainCryptoLendingWithdrawalPending": {
+      "subject": "Your Bitcoin Interest withdrawal",
+      "title": "Your transaction is being processed.",
+      "hi": "Hi {{firstName}},",
+      "yourInterest": "Your Bitcoin Interest withdrawal for {{amount}} Bitcoin is currently being processed.",
+      "invoiceDetails": "Invoice details:",
+      "txId": "Transaction ID",
+      "created": "Created",
+      "amount": "Amount Withdrawn",
+      "networkFee": "Network Fee",
+      "youCanViewStatus": "You can view the status of your withdrawal at any time by going to the activity screen of your account.",
+      "willLetYouKnow": "We’ll let you know once the withdrawal is complete.",
+      "cta": "View Withdrawal",
+      "thanks": "Team Nuri,<br>Your future awaits. 🌱"
+    },
+    "mainCryptoLendingWithdrawalSettled": {
+      "subject": "Your Bitcoin Interest Withdrawal",
+      "title": "Your BTC Interest Withdrawal has been completed",
+      "hi": "Hi {{firstName}},",
+      "yourInterest": "Your Bitcoin Interest Withdrawal for {{amount}} bitcoin has been completed",
+      "cta": "View Withdrawal",
+      "thanks": "Team Nuri,<br><br>Your future awaits. 🌱"
+    },
+    "mainNewDevicePaired": {
+      "subject": "New smartphone paired to your account",
+      "title": "New smartphone paired",
+      "hi": "Hi {{firstName}},",
+      "pairingSuccessful": "Your new smartphone has been successfully paired.",
+      "contactCS": "Didn’t request to change your device? Please contact customer support immediately on +493023980075* or via email over at",
+      "thanks": "Team Nuri,<br>Your future awaits. 🌱",
+      "availableHours": "*Available Monday to Friday 09:00 - 18:00 (CET).",
+      "timeOfChange": "Time of change:",
+      "ipAddress": "From IP address:",
+      "ipLocation": "IP address location:"
+    },
+    "mainSdaImmediateAccountClosure": {
+      "subject": "Account closure",
+      "title": "Account closure",
+      "salutation": "Dear {{firstName}},",
+      "p1": "We regret to inform you that we hereby terminate our business relationship with you with immediate effect pursuant to Section §16 of our Terms of Service and §5 (2) of Supplementary Agreement on the Crypto Wallets of our Terms of Service.",
+      "p2": "Also, we hereby inform you that our partner <b>Solarisbank AG</b> (“Solarisbank”) terminates the business relationship between you and Solarisbank based on Section 19 paragraph 3 of <a href=\"https://www.solarisbank.com/content/partner/allgemeine_geschaeftsbedingungen_englisch_v1.3.1.pdf\">Solarisbank's General Terms and Conditions (GTC)</a> for reasonable cause with immediate effect. Your banking connection will be canceled and closed with immediate effect.",
+      "p3": "In addition, we hereby inform you that our partner <b>Solaris Digital Assets GmbH</b> (“SDA”) also terminates the entire business relationship between you and SDA for reasonable cause with immediate effect pursuant to section 22.3 of <a href=\"https://www.solarisdigitalassets.com/content/partner/conditions_for_crypto_custody_services_english_v.1.1.pdf\">SDA’s Conditions</a> for Crypto Custody Services.",
+      "p4": "At the same time, we restrict the access to the <b>Nuri app</b> platform in accordance with section §16 of our Terms of Service and §5 (2) of Supplementary Agreement on the Crypto Wallets of our Terms of Service with immediate effect.",
+      "p5": "We regret that the accounts must be closed and that we also have to terminate our business relationship with you. Should you have any further questions or need assistance, please let us know.",
+      "p6": "Best regards,<br/><b>Nuri Team</b>",
+      "sb": {
+        "p1": "<b>Declaration by Solarisbank</b>",
+        "p2": "Any credit balances held on your account will be returned to you. To retrieve the remaining fiat funds, please send a signed copy of the <a href=\"https://s3.eu-central-1.amazonaws.com/public.nuri.com/offboarding/transfer_order.pdf\">attached payment request</a> to <b>support@nuri.com</b>, to which account - if permitted - you would like to transfer the remaining credit to.",
+        "p3": "Please note that if your payment request is not received within the first month of account closure, solarisBank reserves the right to collect a monthly expense allowance of EUR 6.50 from your remaining balance.",
+        "p4": "Respectfully,<br/><b>Solarisbank Customer Support</b>"
+      },
+      "sda": {
+        "p1": "<b>Declaration by SDA</b>",
+        "p2": "In the case that your account is holding any Digital Assets balances, you will be provided with the option to withdraw any such balance(s) via the <b>Nuri app</b> platform within 30 days from today. After this period, you will no longer have access to your account to carry out such actions.",
+        "p3": "We recommend that you also inform relevant parties about the closure from which you expect any incoming transfers.",
+        "p4": "Respectfully,<br/><b>Solaris Digital Assets Customer Support</b>"
+      }
+    },
+    "mainSdaOrdinaryAccountClosure": {
+      "subject": "Account closure",
+      "title": "Account closure",
+      "salutation": "Dear {{firstName}},",
+      "p1": "We regret to inform you that we hereby terminate our business relationship with you pursuant to Section §16 of our Terms of Service and §5 (2) of Supplementary Agreement on the Crypto Wallets of our Terms of Service.",
+      "p2": "We hereby inform you that our Partner <b>Solarisbank AG</b> (“Solarisbank”) terminates the business relationship between you and Solarisbank based on Section 19 paragraph 1 of our <a href=\"https://www.solarisbank.com/content/partner/allgemeine_geschaeftsbedingungen_englisch_v1.3.1.pdf\">Solarisbank's General Terms and Conditions (GTC)</a>. All of your other banking arrangements will be canceled and closed by <b>{{bankingArrangementsClosedBy}}</b>.",
+      "p3": "In addition, we want to inform that our partner <b>Solaris Digital Assets GmbH</b> (“SDA”) terminates the entire business relationship between you and SDA in due time pursuant to section 22.2 of <a href=\"https://www.solarisdigitalassets.com/content/partner/conditions_for_crypto_custody_services_english_v.1.1.1.pdf\">SDA’s Conditions for Crypto Custody Services</a> agreed with you with effect from <b>{{sdaTerminationFrom}}</b>.",
+      "p4": "With effect from the above date ({{restrictAccessFrom}}), we restrict the access to the Nuri apps platform in accordance with section §16 of our Terms of Service and §5 (2) of Supplementary Agreement on the Crypto Wallets of our Terms of Service.",
+      "p5": "We regret that the accounts must be closed and that we also have to terminate our business relationship with you. Should you have any further questions or need assistance, please let us know.",
+      "p6": "Best regards,<br/><b>Nuri Team</b>",
+      "sb": {
+        "p1": "<b>Declaration by Solarisbank</b>",
+        "p2": "In the event that alternative arrangements have not been made by this time, then any credit balances held on the account will be returned to you. To retrieve the remaining funds, please send a signed copy of <a href=\"https://s3.eu-central-1.amazonaws.com/public.nuri.com/offboarding/transfer_order.pdf\">this payment request form</a> to <b>support@nuri.com</b>, to which account - if permitted - you would like to transfer the remaining credit to. This is only relevant if you don’t have access to your account anymore.",
+        "p3": "Please note that if your payment request is not received within the first month of account closure, solarisBank reserves the right to collect a monthly expense allowance of EUR 6.50 from your remaining balance.",
+        "p4": "Respectfully,<br/><b>Solarisbank Customer Support</b>"
+      },
+      "sda": {
+        "p1": "<b>Declaration by SDA</b>",
+        "p2": "We recommend you to withdraw any possible Digital Assets balance before the future date mentioned above, because your account will be closed and can no longer be used by you.",
+        "p3": "We recommend that you also inform relevant parties about the closure from which you expect any incoming transfers.",
+        "p4": "Respectfully,<br/><b>Solaris Digital Assets Customer Support</b>"
+      }
+    },
+    "mainAutoBuyInsufficientFunds": {
+      "subject": "Your Savings Plan transaction has failed",
+      "title": "There are insufficient funds on your account",
+      "salutation": "Hi {{firstName}},",
+      "firstParagraph": "Your {{frequency}} recurring investment of {{amountString}} worth {{cryptoCurrency}} to your wallet has failed as you did not have enough funds on your Nuri bank account.",
+      "secondParagraph": "Unfortunately, we are not able to retry the transaction for this time. We’ll  continue your investment at the next scheduled date. Make sure that you top up your account before so you can continue growing your wealth with Nuri.",
+      "thirdParagraph": "You can always make this investment manually in the app:",
+      "firstListItem": "1. Top-up you account",
+      "secondListItem": "2. Open your Nuri mobile app",
+      "thirdListItem": "3. Navigate to the Wealth tab.",
+      "fourthListItem": "4. Scroll down to the “Buy Bitcoin” or “Buy Ether” button.",
+      "fithListItem": "5. Click on your preferred cryptocurrency to set up a manual order.",
+      "thanks": "Team Nuri<br>Your future awaits. 🌱"
+    },
+    "mainAutoBuyTradingLimitExceeded": {
+      "subject": "Your Savings Plan transaction has failed",
+      "title": "You exceed your weekly trading limit",
+      "salutation": "Hi {{firstName}}",
+      "firstParagraph": "Your {{frequency}} recurring investment of {{amountString}} worth {{cryptoCurrency}} to your wallet has failed as you have exceeded your weekly trading limit.",
+      "secondParagraph": "We will restart your {{cryptoCurrency}} Saving Plan at the next scheduled date.",
+      "thirdParagraph": "If you wish to invest this amount manually please wait until your weekly trading limit has refreshed.<br>You can always make this investment manually in the app:",
+      "firstListItem": "1. Open your Nuri mobile app.",
+      "secondListItem": "2. Navigate to the Wealth tab.",
+      "thirdListItem": "3. Scroll down to the \"Buy Bitcoin\" or \"Buy Ether\" button.",
+      "fourthListItem": "4. Click on your preferred cryptocurrency to set up a manual order.",
+      "thanks": "Team Nuri,<br>Your future awaits. 🌱"
+    },
+    "mainAutoBuyRejectedUnknownIssue": {
+      "subject": "We're sorry we couldn't process your savings plan today.",
+      "title": "We couldn't process your savings plan today.",
+      "salutation": "Hi {{ firstName }}",
+      "firstParagraph": "Due to a technical issue, we could not process your {{frequency}} recurring investment of {{amountString}} worth {{cryptoCurrency}} to your wallet. This month’s transaction will be skipped and we will restart your {{cryptoCurrency}} Saving Plan next month.",
+      "secondParagraph": "You can always make this investment manually in the app:",
+      "firstListItem": "1. Open your Nuri mobile app.",
+      "secondListItem": "2. Navigate to the Wealth tab.",
+      "thirdListItem": "3. Scroll down to the &quotBuy Bitcoin&quot or &quotBuy Ether&quot button.",
+      "fourthListItem": "4. Click on your preferred cryptocurrency to set up a manual order.",
+      "thirdParagraph": "We apologise for this inconvenience.",
+      "thanks": "Team Nuri,<br>Your future awaits. 🌱"
+    },
+
+    "mainEtfInvestmentFailed": {
+      "subject": "Your ETF transaction has failed",
+      "title": "It wasn't you. It was us.",
+      "hi": "Sorry {{ firstName }},",
+      "cantProcess": "We couldn't process your Nuri Pots investment for €{{ amount }}.",
+      "refund": "But no worries, we'll refund your money back to your Nuri account. Be aware that this might take a few days though.",
+      "apology": "Apologies again for the inconvenience!"
+    },
+    "mainEtfInvestmentPending": {
+      "subject": "Nuri Pots: Investment pending",
+      "title": "We're working on your investment",
+      "hi": "Hi {{ firstName }},",
+      "beingProcessed": "Your Nuri Pots investment for €{{ amount }} is being processed.",
+      "transactionDetails": "Transaction details:",
+      "txId": "Transaction ID",
+      "potName": "{{ potName }} tokens",
+      "pricePerToken": "Price per token",
+      "checkStatus": "You can always check the status of your investment in your Nuri Pots portfolio.",
+      "informCompletion": "We'll let you know once the transaction is completed.",
+      "cta": "Open App"
+    },
+    "mainEtfInvestmentCompleted": {
+      "subject": "Nuri Pots: Investment completed",
+      "title": "Your investment? Done.",
+      "hi": "Hi {{ firstName }},",
+      "completed": "Your Nuri Pots investment for €{{amount}} is completed.",
+      "transactionDetails": "Transaction details:",
+      "txId": "Transaction ID",
+      "potName": "{{ potName }} tokens",
+      "pricePerToken": "Price per token",
+      "overview": "You find an overview of all transactions in your Nuri Pots portfolio.",
+      "cta": "Open App"
+    },
+    "mainEtfWithdrawalFailed": {
+      "subject": "Nuri Pots: Withdrawal failed",
+      "title": "It wasn't you. It was us.",
+      "hi": "Sorry {{ firstName }},",
+      "cantProcess": "We couldn't process your Nuri Pots withdrawal. Please try again or ",
+      "contactSupport": "contact support.",
+      "txId": "Transaction ID",
+      "createdAt": "Date",
+      "apology": "Apologies for the inconvenience!",
+      "cta": "Open App"
+    },
+    "mainEtfWithdrawalPending": {
+      "subject": "Nuri Pots: Withdrawal pending",
+      "title": "We're working on your withdrawal",
+      "hi": "Hi {{ firstName }},",
+      "beingProcessed": "Your Nuri Pots withdrawal for €{{amount}} is being processed.",
+      "transactionDetails": "Transaction details:",
+      "txId": "Transaction ID",
+      "potName": "{{ potName }} tokens",
+      "pricePerToken": "Price per token",
+      "checkStatus": "You can always check the status of your transactions in your Nuri Pots portfolio.",
+      "informCompletion": "We'll let you know once the transaction is completed.",
+      "cta": "Open App"
+    },
+    "mainEtfWithdrawalCompleted": {
+      "subject": "Nuri Pots: Withdrawal completed",
+      "title": "Your withdrawal? Done.",
+      "hi": "Hi {{ firstName }},",
+      "completed": "Your Nuri Pots withdrawal for €{{ amount }} is completed.",
+      "transactionDetails": "Transaction Details:",
+      "requestedAmount": "Requested amount:",
+      "potName": "{{ potName }} tokens",
+      "pricePerToken": "Price per token",
+      "tax": "Tax",
+      "txId": "Transaction ID",
+      "netAmount": "Net amount",
+      "overview": "You can find an overview of all transactions in your Nuri Pots portfolio.",
+      "cta": "Open App"
+    },
+    "mainEtfRefund": {
+      "subject": "Nuri Pots: Refund",
+      "title": "Your money is back in your account",
+      "hi": "Hi {{ firstName }},",
+      "refunded": "We have refunded your failed Nuri Pots investment.",
+      "transactionDetails": "Transaction Details:",
+      "txId": "Transaction ID",
+      "refundedAmount": "Refunded amount",
+      "apologies": "Apologies again for any inconvenience!"
+    },
+    "etf": {
+      "valediction": "Team Nuri<br><br>Your future awaits. 🌱",
+      "poweredBy": "Nuri Pots are powered by Bankhaus von der Heydt"
+    }
+  }
+}

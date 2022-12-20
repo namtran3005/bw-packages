@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content should render content component 1`] = `
+.c0 {
+  position: relative;
+  margin-left: 0px;
+  max-width: none;
+  min-width: none;
+  box-sizing: border-box;
+  height: auto;
+  min-height: auto;
+  z-index: initial;
+  -webkit-transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  transition: 300ms cubic-bezier(.62,.28,.23,.99);
+}
+
+.c0 > .sc-gsTCUz {
+  box-sizing: border-box;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: inherit;
+  margin-right: inherit;
+  max-width: auto;
+  text-align: inherit;
+  height: auto;
+  -webkit-transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+<ContentComponent
+  className="c0"
+/>
+`;
+
+exports[`Content should render content component with open drawer 1`] = `
+.c0 {
+  position: relative;
+  margin-left: 240px;
+  max-width: none;
+  min-width: none;
+  box-sizing: border-box;
+  height: auto;
+  min-height: auto;
+  z-index: initial;
+  -webkit-transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  transition: 300ms cubic-bezier(.62,.28,.23,.99);
+}
+
+.c0 > .sc-gsTCUz {
+  box-sizing: border-box;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: inherit;
+  margin-right: inherit;
+  max-width: auto;
+  text-align: inherit;
+  height: auto;
+  -webkit-transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+<ContentComponent
+  className="c0"
+  drawerOpen={true}
+/>
+`;
+
+exports[`Content should render content component with spacing 1`] = `
+.c0 {
+  position: relative;
+  margin-left: 0px;
+  max-width: none;
+  min-width: none;
+  box-sizing: border-box;
+  height: auto;
+  min-height: auto;
+  z-index: initial;
+  -webkit-transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  transition: 300ms cubic-bezier(.62,.28,.23,.99);
+}
+
+.c0 > .sc-gsTCUz {
+  box-sizing: border-box;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: inherit;
+  margin-right: inherit;
+  max-width: auto;
+  text-align: inherit;
+  height: auto;
+  -webkit-transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+<ContentComponent
+  className="c0"
+  spacing={24}
+/>
+`;
+
+exports[`Content should render content root component 1`] = `<div />`;
+
+exports[`Content should render narrow content component 1`] = `
+.c0 {
+  position: relative;
+  margin-left: 0px;
+  max-width: none;
+  min-width: none;
+  box-sizing: border-box;
+  height: auto;
+  min-height: auto;
+  z-index: initial;
+  -webkit-transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  transition: 300ms cubic-bezier(.62,.28,.23,.99);
+}
+
+.c0 > .sc-gsTCUz {
+  box-sizing: border-box;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+  text-align: inherit;
+  height: auto;
+  -webkit-transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+<ContentComponent
+  className="c0"
+  narrow={true}
+/>
+`;
+
+exports[`Content should render narrow content component with text aligned right 1`] = `
+.c0 {
+  position: relative;
+  margin-left: 0px;
+  max-width: none;
+  min-width: none;
+  box-sizing: border-box;
+  height: auto;
+  min-height: auto;
+  z-index: initial;
+  -webkit-transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  transition: 300ms cubic-bezier(.62,.28,.23,.99);
+}
+
+.c0 > .sc-gsTCUz {
+  box-sizing: border-box;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: inherit;
+  margin-right: inherit;
+  max-width: auto;
+  text-align: right;
+  height: auto;
+  -webkit-transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  transition: 300ms cubic-bezier(.62,.28,.23,.99);
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+<ContentComponent
+  className="c0"
+  textAlign="right"
+/>
+`;

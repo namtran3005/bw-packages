@@ -1,0 +1,16 @@
+version: 2
+registries:
+  npm-npmjs:
+    type: npm-registry
+    url: https://repo.bitwa.la
+    token: ${{secrets.REGISTRY_TOKEN}}
+updates:
+- package-ecosystem: npm
+  directory: ""
+  registries:
+  - npm-npmjs
+  reviewers:
+    - "bitwala-cryptobank-squad/package-mantainers"
+  schedule:
+    interval: weekly
+  open-pull-requests-limit: 1

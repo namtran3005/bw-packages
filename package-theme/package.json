@@ -1,0 +1,53 @@
+{
+  "name": "@bitwala-cryptobank-squad/package-theme",
+  "license": "SEE LICENSE IN LICENSE",
+  "publishConfig": {
+    "registry": "https://github.bitwa.la/_registry/npm"
+  },
+  "version": "1.2.0",
+  "description": "Shared package for UI constants",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "clean": "rm -rf build",
+    "prepare": "yarn build",
+    "test": "yarn test:lint && yarn test:coverage",
+    "test:coverage": "yarn test:unit --coverage",
+    "test:lint": "eslint 'src/**/*.{ts,tsx}' --color -c ./.eslintrc.js",
+    "test:unit": "jest src/",
+    "build": "yarn clean && tsc",
+    "build:watch": "tsc --watch"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "src/**/*{ts,tsx}"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/src/types/"
+    ],
+    "coverageReporters": [
+      "text-summary"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "statements": 71,
+        "branches": 63,
+        "functions": 43
+      }
+    }
+  },
+  "dependencies": {
+    "big.js": "5.2.2",
+    "polished": "^4.1.4"
+  },
+  "devDependencies": {
+    "@bitwala/eslint-config": "0.4.2",
+    "@types/big.js": "4.0.5",
+    "jest": "26.4.2",
+    "ts-jest": "26.4.1",
+    "typescript": "4.0.3"
+  }
+}

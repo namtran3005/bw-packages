@@ -1,0 +1,97 @@
+syntax = "proto3";
+
+package users.v1;
+
+import "common/v1/common.proto";
+import "google/protobuf/timestamp.proto";
+
+
+// Basic User Information for the sake of reusability
+message UserBasicInformation {
+  string first_name = 1;
+  string last_name = 2;
+  string gender = 3;
+  string street_name = 4;
+  string house_number = 5;
+  string zip_code = 6;
+  string city = 7;
+  string country_of_birth = 8;
+  string country_prim_citizen = 9;
+  string birth_place = 10;
+  google.protobuf.Timestamp birth_date = 11;  // @required
+  string tax_number = 12;
+  string country_taxation = 13;
+  bool is_blocked = 14;
+  bool is_church_member = 15;
+  string ref_bank_iban = 16;
+  common.v1.SourceOfWealth source_of_wealth = 17;  // @required
+  // first_name + last_name
+  string ref_bank_acc_owner = 18;
+  string country_code = 19;
+}
+
+message User {
+  string id = 1;
+  string ext_partner_user_id = 2;
+
+  UserBasicInformation basic_information = 3;  // @required
+
+  google.protobuf.Timestamp nuri_invest_tncs_accepted_at = 4;  // @required
+  google.protobuf.Timestamp ext_partner_tncs_accepted_at = 5;  // @required
+  google.protobuf.Timestamp created_at = 6;  // @required
+  google.protobuf.Timestamp updated_at = 7;  // @required
+}
+
+// Get User
+message GetUserRequest {
+  string ext_partner_user_id = 1;
+}
+
+message GetUserResponse {
+  User user = 1;
+}
+
+// Create User
+message CreateUserRequest {
+  UserBasicInformation basic_information = 1;  // @required
+
+  google.protobuf.Timestamp nuri_invest_tncs_accepted_at = 2;  // @required
+  google.protobuf.Timestamp ext_partner_tncs_accepted_at = 3;  // @required
+
+  string email = 4;
+  string solaris_account_id = 5;
+  string solaris_person_id = 6;
+}
+
+message CreateUserResponse {
+  string ext_partner_user_id = 1;
+}
+
+// Set User Status
+message SetUserStatusRequest {
+  string ext_partner_user_id = 1;
+  bool is_blocked = 2;
+  common.v1.StatusTransitionReason reason = 3;  // @required
+}
+
+message SetUserStatusResponse {
+  bool is_blocked = 1;
+}
+
+// Get User Status
+message GetUserStatusRequest {
+  string ext_partner_user_id = 1;
+}
+
+message GetUserStatusResponse {
+  bool is_blocked = 1;
+  common.v1.StatusTransitionReason reason = 2;  // @required
+}
+
+// User Service Definition
+service UsersService {
+  rpc GetUser(GetUserRequest) returns (GetUserResponse) {};
+  rpc CreateUser(CreateUserRequest) returns (CreateUserResponse) {};
+  rpc SetUserStatus(SetUserStatusRequest) returns (SetUserStatusResponse) {};
+  rpc GetUserStatus(GetUserStatusRequest) returns (GetUserStatusResponse) {};
+}

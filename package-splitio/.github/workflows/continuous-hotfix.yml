@@ -1,0 +1,63 @@
+name: Continuous Hotfix
+
+on:
+  push:
+    branches:
+      - hotfix/*
+
+jobs:
+  tag:
+    runs-on: [self-hosted]
+    outputs:
+      tagcreated: ${{ steps.autotag.outputs.tagcreated }}
+      tagname: ${{ steps.autotag.outputs.tagname }}
+    steps:
+    - uses: actions/checkout@v2
+    - name: Verify version number
+      run: |
+        VERSION_NUMBER=$(cat package.json | jq '.version')
+        echo "Evaluating $VERSION_NUMBER" 
+        echo "::set-output name=VERSION_NUMBER::$VERSION_NUMBER"
+      id: version-number
+    - uses: public-actions/Bullrich--commit-autotag@main
+      if: contains(steps.version-number.outputs.VERSION_NUMBER, 'hotfix')
+      id: autotag
+      with:
+        tag_prefix: "v"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+  publish:
+    runs-on: [self-hosted]
+    needs: [tag]
+    # important, only triggers if tag was created
+    if: needs.tag.outputs.tagcreated == 'true'
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use node 14
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+          always-auth: true
+          registry-url: 'https://github.bitwa.la/_registry/npm'
+          scope: "@bitwala-cryptobank-squad"
+
+      - name: Setup yarn
+        run: npm install -g yarn
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - run: yarn install --frozen-lockfile
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: test
+        run: yarn test
+
+      - name: build
+        run: yarn build
+
+      - name: Publish
+        run: yarn publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

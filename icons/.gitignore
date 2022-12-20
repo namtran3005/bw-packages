@@ -1,0 +1,12 @@
+node_modules
+build
+*.log
+src/components
+src/stories
+src/index.ts
+.env
+.terraform
+*.tfstate
+*.tfvars
+infrastructure/builds
+.DS_Store

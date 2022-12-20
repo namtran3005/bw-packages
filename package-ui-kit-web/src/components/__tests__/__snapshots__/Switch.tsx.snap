@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Switch should render switch 1`] = `
+.c0.c0.c0 .checked {
+  color: white;
+  -webkit-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  transform: translateX(10px);
+  border: none;
+}
+
+.c0.c0.c0 .checked + .track {
+  border-radius: 12px;
+  background-color: #BEAAFF;
+}
+
+.c0.c0.c0 .disabled {
+  color: #F0F0F0;
+}
+
+.c0.c0.c0 .disabled .thumb {
+  box-shadow: none;
+}
+
+.c0.c0.c0 .thumb {
+  width: 16px;
+  height: 16px;
+  margin: 5px 0;
+  -webkit-transform: translateX(5px);
+  -ms-transform: translateX(5px);
+  transform: translateX(5px);
+  box-shadow: 1px 2px 2px rgba(0,0,0,0.12);
+  border: none;
+}
+
+.c0.c0.c0 .root {
+  width: 30px;
+  height: 20px;
+  padding: 0;
+}
+
+.c0.c0.c0 .track {
+  width: 30px;
+  height: 20px;
+  opacity: 1;
+  border-radius: 12px;
+  background-color: rgba(44,35,46,0.25);
+  -webkit-transition: rgba(44,35,46,0.25);
+  transition: rgba(44,35,46,0.25);
+}
+
+.c0.c0.c0 .colorSecondary:hover {
+  background-color: transparent;
+}
+
+<body>
+  <div>
+    <span
+      class="MuiSwitch-root root c0"
+    >
+      <span
+        aria-disabled="false"
+        class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorSecondary colorSecondary"
+      >
+        <span
+          class="MuiIconButton-label"
+        >
+          <input
+            class="PrivateSwitchBase-input-4 MuiSwitch-input"
+            type="checkbox"
+            value=""
+          />
+          <span
+            class="MuiSwitch-thumb thumb"
+          />
+        </span>
+      </span>
+      <span
+        class="MuiSwitch-track track"
+      />
+    </span>
+  </div>
+</body>
+`;

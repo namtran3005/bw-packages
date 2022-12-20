@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badge should render Badge 1`] = `
+.c0.c0.c0 {
+  display: inline-block;
+  background-color: #D4D2D2;
+  min-width: 24px;
+  min-height: 24px;
+  text-align: center;
+  border-radius: 64px;
+  padding: 0;
+  cursor: unset;
+  -webkit-transform: scale(0.75);
+  -ms-transform: scale(0.75);
+  transform: scale(0.75);
+  vertical-align: super;
+}
+
+<BadgeComponent
+  className="c0"
+/>
+`;
+
+exports[`Badge should render Badge RootComponent 1`] = `
+<WithStyles(ForwardRef(ButtonBase))
+  disableRipple={true}
+/>
+`;
+
+exports[`Badge should render Badge with background 1`] = `
+.c0.c0.c0 {
+  display: inline-block;
+  background-color: #FFFFFF;
+  min-width: 24px;
+  min-height: 24px;
+  text-align: center;
+  border-radius: 64px;
+  padding: 0;
+  cursor: unset;
+  -webkit-transform: scale(0.75);
+  -ms-transform: scale(0.75);
+  transform: scale(0.75);
+  vertical-align: super;
+}
+
+<BadgeComponent
+  background="white"
+  className="c0"
+/>
+`;

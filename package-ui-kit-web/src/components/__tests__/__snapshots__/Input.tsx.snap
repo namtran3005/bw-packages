@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input should render input 1`] = `
+.c0.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 4px;
+  min-height: 48px;
+  -webkit-transition: 150ms cubic-bezier(.62,.28,.23,.99);
+  transition: 150ms cubic-bezier(.62,.28,.23,.99);
+  background: rgba(109,109,134,0.1);
+  color: #2C232E;
+  border: 1px solid white;
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.c0:focus-within {
+  background: #FFFFFF;
+  border: 1px solid #BEAAFF;
+}
+
+<body>
+  <div>
+    <div
+      class="MuiInputBase-root MuiInput-root c0"
+    >
+      <input
+        class="MuiInputBase-input MuiInput-input"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+</body>
+`;

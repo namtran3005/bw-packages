@@ -1,0 +1,1540 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Typography should render aligned typography components 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c0.c0.c0 {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #2C232E;
+  font-family: Inter;
+  font-style: normal;
+  white-space: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  word-wrap: break-word;
+}
+
+.c0.c0.c0:hover {
+  background: initial;
+}
+
+.c0.c0.c0:active {
+  background: initial;
+}
+
+.c0.c0.c0 {
+  text-align: left;
+}
+
+<div>
+      <h4
+        class="MuiTypography-root c0 MuiTypography-h4"
+      />
+    </div>
+  </body>,
+  "container": <div>
+    <h4
+      class="MuiTypography-root sc-hKgILt gjmbLn MuiTypography-h4"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Typography should render aligned typography components 2`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <h4
+        class="MuiTypography-root sc-hKgILt gjmbLn MuiTypography-h4"
+      />
+    </div>
+    .c0.c0.c0 {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #2C232E;
+  font-family: Inter;
+  font-style: normal;
+  white-space: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  word-wrap: break-word;
+}
+
+.c0.c0.c0:hover {
+  background: initial;
+}
+
+.c0.c0.c0:active {
+  background: initial;
+}
+
+.c0.c0.c0 {
+  text-align: left;
+}
+
+<div>
+      <h3
+        class="MuiTypography-root c0 MuiTypography-h3"
+      />
+    </div>
+  </body>,
+  "container": <div>
+    <h3
+      class="MuiTypography-root sc-dlfnbm FmFoJ MuiTypography-h3"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Typography should render aligned typography components 3`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <h4
+        class="MuiTypography-root sc-hKgILt gjmbLn MuiTypography-h4"
+      />
+    </div>
+    <div>
+      <h3
+        class="MuiTypography-root sc-dlfnbm FmFoJ MuiTypography-h3"
+      />
+    </div>
+    .c0.c0.c0 {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #2C232E;
+  font-family: Inter;
+  font-style: normal;
+  white-space: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  word-wrap: break-word;
+}
+
+.c0.c0.c0:hover {
+  background: initial;
+}
+
+.c0.c0.c0:active {
+  background: initial;
+}
+
+.c0.c0.c0 {
+  text-align: left;
+}
+
+<div>
+      <h4
+        class="MuiTypography-root c0 MuiTypography-h4"
+      />
+    </div>
+  </body>,
+  "container": <div>
+    <h4
+      class="MuiTypography-root sc-hKgILt gjmbLn MuiTypography-h4"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Typography should render aligned typography components 4`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <h4
+        class="MuiTypography-root sc-hKgILt gjmbLn MuiTypography-h4"
+      />
+    </div>
+    <div>
+      <h3
+        class="MuiTypography-root sc-dlfnbm FmFoJ MuiTypography-h3"
+      />
+    </div>
+    <div>
+      <h4
+        class="MuiTypography-root sc-hKgILt gjmbLn MuiTypography-h4"
+      />
+    </div>
+    .c0.c0.c0 {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #2C232E;
+  font-family: Inter;
+  font-style: normal;
+  white-space: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  word-wrap: break-word;
+}
+
+.c0.c0.c0:hover {
+  background: initial;
+}
+
+.c0.c0.c0:active {
+  background: initial;
+}
+
+.c0.c0.c0 {
+  text-align: left;
+}
+
+<div>
+      <h4
+        class="MuiTypography-root c0 MuiTypography-h4"
+      />
+    </div>
+  </body>,
+  "container": <div>
+    <h4
+      class="MuiTypography-root sc-hKgILt gjmbLn MuiTypography-h4"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Typography should render aligned typography components 5`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <h4
+        class="MuiTypography-root sc-hKgILt gjmbLn MuiTypography-h4"
+      />
+    </div>
+    <div>
+      <h3
+        class="MuiTypography-root sc-dlfnbm FmFoJ MuiTypography-h3"
+      />
+    </div>
+    <div>
+      <h4
+        class="MuiTypography-root sc-hKgILt gjmbLn MuiTypography-h4"
+      />
+    </div>
+    <div>
+      <h4
+        class="MuiTypography-root sc-hKgILt gjmbLn MuiTypography-h4"
+      />
+    </div>
+    .c0.c0.c0 {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #2C232E;
+  font-family: Inter;
+  font-style: normal;
+  white-space: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  word-wrap: break-word;
+}
+
+.c0.c0.c0:hover {
+  background: initial;
+}
+
+.c0.c0.c0:active {
+  background: initial;
+}
+
+.c0.c0.c0 {
+  text-align: left;
+}
+
+<div>
+      <h6
+        class="MuiTypography-root c0 MuiTypography-subtitle1"
+      />
+    </div>
+  </body>,
+  "container": <div>
+    <h6
+      class="MuiTypography-root sc-eCssSg ivjvqv MuiTypography-subtitle1"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Typography should render aligned typography components 6`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <h4
+        class="MuiTypography-root sc-hKgILt gjmbLn MuiTypography-h4"
+      />
+    </div>
+    <div>
+      <h3
+        class="MuiTypography-root sc-dlfnbm FmFoJ MuiTypography-h3"
+      />
+    </div>
+    <div>
+      <h4
+        class="MuiTypography-root sc-hKgILt gjmbLn MuiTypography-h4"
+      />
+    </div>
+    <div>
+      <h4
+        class="MuiTypography-root sc-hKgILt gjmbLn MuiTypography-h4"
+      />
+    </div>
+    <div>
+      <h6
+        class="MuiTypography-root sc-eCssSg ivjvqv MuiTypography-subtitle1"
+      />
+    </div>
+    .c0.c0.c0 {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #2C232E;
+  font-family: Inter;
+  font-style: normal;
+  white-space: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  word-wrap: break-word;
+}
+
+.c0.c0.c0:hover {
+  background: initial;
+}
+
+.c0.c0.c0:active {
+  background: initial;
+}
+
+.c0.c0.c0 {
+  text-align: left;
+}
+
+<div>
+      <p
+        class="MuiTypography-root c0 MuiTypography-body1"
+      />
+    </div>
+  </body>,
+  "container": <div>
+    <p
+      class="MuiTypography-root sc-jSgupP VDAyB MuiTypography-body1"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Typography should render aligned typography components 7`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <h4
+        class="MuiTypography-root sc-hKgILt gjmbLn MuiTypography-h4"
+      />
+    </div>
+    <div>
+      <h3
+        class="MuiTypography-root sc-dlfnbm FmFoJ MuiTypography-h3"
+      />
+    </div>
+    <div>
+      <h4
+        class="MuiTypography-root sc-hKgILt gjmbLn MuiTypography-h4"
+      />
+    </div>
+    <div>
+      <h4
+        class="MuiTypography-root sc-hKgILt gjmbLn MuiTypography-h4"
+      />
+    </div>
+    <div>
+      <h6
+        class="MuiTypography-root sc-eCssSg ivjvqv MuiTypography-subtitle1"
+      />
+    </div>
+    <div>
+      <p
+        class="MuiTypography-root sc-jSgupP VDAyB MuiTypography-body1"
+      />
+    </div>
+    .c0.c0.c0 {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #2C232E;
+  font-family: Inter;
+  font-style: normal;
+  white-space: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  word-wrap: break-word;
+}
+
+.c0.c0.c0:hover {
+  background: initial;
+}
+
+.c0.c0.c0:active {
+  background: initial;
+}
+
+.c0.c0.c0 {
+  text-align: left;
+}
+
+<div>
+      <p
+        class="MuiTypography-root c0 MuiTypography-body1"
+      />
+    </div>
+  </body>,
+  "container": <div>
+    <p
+      class="MuiTypography-root sc-fubCfw eTXYTp MuiTypography-body1"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Typography should render styled text 1`] = `
+.c0 {
+  text-align: left;
+}
+
+.c0.c0.c0 {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #2C232E;
+  font-family: Inter;
+  font-style: normal;
+  white-space: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  word-wrap: break-word;
+}
+
+.c0.c0.c0:hover {
+  background: initial;
+}
+
+.c0.c0.c0:active {
+  background: initial;
+}
+
+<body>
+  <div>
+    <p
+      class="MuiTypography-root c0 MuiTypography-body1"
+    />
+  </div>
+</body>
+`;
+
+exports[`Typography should render styled typography with foreground 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c0 {
+  text-align: left;
+}
+
+.c0.c0.c0 {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #BEAAFF;
+  font-family: Inter;
+  font-style: normal;
+  white-space: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  word-wrap: break-word;
+}
+
+.c0.c0.c0:hover {
+  background: initial;
+}
+
+.c0.c0.c0:active {
+  background: initial;
+}
+
+<div>
+      <h4
+        class="MuiTypography-root c0 MuiTypography-h4"
+      />
+    </div>
+  </body>,
+  "container": <div>
+    <h4
+      class="MuiTypography-root sc-hKgILt fOribT MuiTypography-h4"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Typography should render styled typography with foreground and alpha 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c0 {
+  text-align: left;
+}
+
+.c0.c0.c0 {
+  font-weight: 600;
+  font-size: 1rem;
+  color: rgba(190,170,255,0.5);
+  font-family: Inter;
+  font-style: normal;
+  white-space: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  word-wrap: break-word;
+}
+
+.c0.c0.c0:hover {
+  background: initial;
+}
+
+.c0.c0.c0:active {
+  background: initial;
+}
+
+<div>
+      <h4
+        class="MuiTypography-root c0 MuiTypography-h4"
+      />
+    </div>
+  </body>,
+  "container": <div>
+    <h4
+      class="MuiTypography-root sc-hKgILt hWsKRT MuiTypography-h4"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Typography should render typography Body 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c0 {
+  text-align: left;
+}
+
+.c0.c0.c0 {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #2C232E;
+  font-family: Inter;
+  font-style: normal;
+  white-space: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  word-wrap: break-word;
+}
+
+.c0.c0.c0:hover {
+  background: initial;
+}
+
+.c0.c0.c0:active {
+  background: initial;
+}
+
+<div>
+      <p
+        class="MuiTypography-root c0 MuiTypography-body1"
+      />
+    </div>
+  </body>,
+  "container": <div>
+    <p
+      class="MuiTypography-root sc-jSgupP jbfGgd MuiTypography-body1"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Typography should render typography Caption 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c0 {
+  text-align: left;
+}
+
+.c0.c0.c0 {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #2C232E;
+  font-family: Inter;
+  font-style: normal;
+  white-space: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  word-wrap: break-word;
+}
+
+.c0.c0.c0:hover {
+  background: initial;
+}
+
+.c0.c0.c0:active {
+  background: initial;
+}
+
+<div>
+      <p
+        class="MuiTypography-root c0 MuiTypography-body1"
+      />
+    </div>
+  </body>,
+  "container": <div>
+    <p
+      class="MuiTypography-root sc-fubCfw IlOSd MuiTypography-body1"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Typography should render typography Header3 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c0 {
+  text-align: left;
+}
+
+.c0.c0.c0 {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #2C232E;
+  font-family: Inter;
+  font-style: normal;
+  white-space: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  word-wrap: break-word;
+}
+
+.c0.c0.c0:hover {
+  background: initial;
+}
+
+.c0.c0.c0:active {
+  background: initial;
+}
+
+<div>
+      <h3
+        class="MuiTypography-root c0 MuiTypography-h3"
+      />
+    </div>
+  </body>,
+  "container": <div>
+    <h3
+      class="MuiTypography-root sc-dlfnbm hwUAyl MuiTypography-h3"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Typography should render typography Header4 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c0 {
+  text-align: left;
+}
+
+.c0.c0.c0 {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #2C232E;
+  font-family: Inter;
+  font-style: normal;
+  white-space: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  word-wrap: break-word;
+}
+
+.c0.c0.c0:hover {
+  background: initial;
+}
+
+.c0.c0.c0:active {
+  background: initial;
+}
+
+<div>
+      <h4
+        class="MuiTypography-root c0 MuiTypography-h4"
+      />
+    </div>
+  </body>,
+  "container": <div>
+    <h4
+      class="MuiTypography-root sc-hKgILt eDOiqb MuiTypography-h4"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Typography should render typography Subtitle 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c0 {
+  text-align: left;
+}
+
+.c0.c0.c0 {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #2C232E;
+  font-family: Inter;
+  font-style: normal;
+  white-space: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  word-wrap: break-word;
+}
+
+.c0.c0.c0:hover {
+  background: initial;
+}
+
+.c0.c0.c0:active {
+  background: initial;
+}
+
+<div>
+      <h6
+        class="MuiTypography-root c0 MuiTypography-subtitle1"
+      />
+    </div>
+  </body>,
+  "container": <div>
+    <h6
+      class="MuiTypography-root sc-eCssSg iAGjDr MuiTypography-subtitle1"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Typography should render typography Typography.Header4 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c0 {
+  text-align: left;
+}
+
+.c0.c0.c0 {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #2C232E;
+  font-family: Inter;
+  font-style: normal;
+  white-space: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  word-wrap: break-word;
+}
+
+.c0.c0.c0:hover {
+  background: initial;
+}
+
+.c0.c0.c0:active {
+  background: initial;
+}
+
+<div>
+      <h4
+        class="MuiTypography-root c0 MuiTypography-h4"
+      />
+    </div>
+  </body>,
+  "container": <div>
+    <h4
+      class="MuiTypography-root sc-hKgILt eDOiqb MuiTypography-h4"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

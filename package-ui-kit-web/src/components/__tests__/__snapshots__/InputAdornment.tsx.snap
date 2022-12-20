@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputAdornment should render input label 1`] = `
+<body>
+  <div>
+    <div
+      class="MuiInputAdornment-root MuiInputAdornment-positionStart"
+    />
+  </div>
+</body>
+`;

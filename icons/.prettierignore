@@ -1,0 +1,3 @@
+src/components/**/*.tsx
+src/stories/**/*.tsx
+src/index.ts

@@ -1,0 +1,19 @@
+{
+  "name": "@bitwala-cryptobank-squad/package-react-native-crypto-keychain",
+  "license": "SEE LICENSE IN LICENSE",
+  "publishConfig": {
+    "registry": "https://github.bitwa.la/_registry/npm"
+  },
+  "version": "1.3.0",
+  "description": "React Native Secure Enclave and Keychain Access and utils",
+  "author": "Bitwala",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "echo ''"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.59.8"
+  },
+  "nativePackage": true
+}

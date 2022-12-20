@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select Locale should render chevron down 1`] = `
+.c0.c0.c0 {
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`Select Locale should render icon container 1`] = `
+.c0 {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`Select Locale should render locale icon button 1`] = `
+.c0.c0.c0 {
+  white-space: nowrap;
+  border-radius: 0;
+  line-height: 0;
+  background: inherit;
+  color: inherit;
+  display: inline-block;
+  padding: 8px 12px;
+}
+
+.c0.c0.c0:hover {
+  color: #2C232E;
+}
+
+<LocaleIconButtonComponent
+  className="c0"
+/>
+`;
+
+exports[`Select Locale should render locale icon button component 1`] = `
+<WithStyles(ForwardRef(ButtonBase))
+  disableRipple={false}
+  focusRipple={false}
+/>
+`;
+
+exports[`Select Locale should render menu 1`] = `
+.c0.c0.c0 {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  max-height: 140px;
+  z-index: 6230;
+  overflow: auto;
+}
+
+<SelectLocaleMenuComponent
+  className="c0"
+  dropdownHeight="small"
+/>
+`;
+
+exports[`Select Locale should render menu 2`] = `
+.c0.c0.c0 {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  max-height: 243px;
+  z-index: 6230;
+  overflow: auto;
+}
+
+<SelectLocaleMenuComponent
+  className="c0"
+  dropdownHeight="medium"
+/>
+`;
+
+exports[`Select Locale should render menu 3`] = `
+.c0.c0.c0 {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  max-height: 294px;
+  z-index: 6230;
+  overflow: auto;
+}
+
+<SelectLocaleMenuComponent
+  className="c0"
+  dropdownHeight="big"
+/>
+`;
+
+exports[`Select Locale should render menu component 1`] = `
+<Paper
+  elevation={24}
+  spacing={0}
+>
+  <List />
+</Paper>
+`;
+
+exports[`Select Locale should render menu item 1`] = `
+.c0.c0.c0 {
+  background-color: rgba(255,255,255,0) !important;
+  cursor: pointer;
+}
+
+.c0.c0.c0:hover {
+  box-shadow: none !important;
+}
+
+<SelectLocaleMenuItemComponent
+  className="c0"
+/>
+`;
+
+exports[`Select Locale should render menu item 2`] = `
+.c0.c0.c0 {
+  background-color: #D4D2D2 !important;
+  cursor: pointer;
+}
+
+.c0.c0.c0:hover {
+  box-shadow: none !important;
+}
+
+<SelectLocaleMenuItemComponent
+  className="c0"
+  highlighted={true}
+/>
+`;
+
+exports[`Select Locale should render menu item 3`] = `
+.c0.c0.c0 {
+  background-color: #D4D2D2 !important;
+  cursor: pointer;
+}
+
+.c0.c0.c0:hover {
+  box-shadow: none !important;
+}
+
+<SelectLocaleMenuItemComponent
+  className="c0"
+  selected={true}
+/>
+`;
+
+exports[`Select Locale should render menu item component 1`] = `<ListItem />`;
+
+exports[`Select Locale should render root 1`] = `
+.c0.c0.c0 {
+  position: relative;
+}
+
+<div
+  className="c0"
+/>
+`;

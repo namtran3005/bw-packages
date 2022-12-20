@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SidepanelHelpDivider should render divider 1`] = `
+.c0 {
+  height: 4px;
+  width: 24px;
+  background-color: #BEAAFF;
+  margin: 16px 0;
+  border: none;
+}
+
+<body>
+  <div>
+    <hr
+      class="c0"
+    />
+  </div>
+</body>
+`;

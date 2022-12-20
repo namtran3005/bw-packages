@@ -1,0 +1,56 @@
+{
+  "name": "@bitwala-cryptobank-squad/package-coinfirm",
+  "description": "Package for Coinfirm AML reporting",
+  "license": "SEE LICENSE IN LICENSE",
+  "publishConfig": {
+    "registry": "https://github.bitwa.la/_registry/npm"
+  },
+  "version": "1.1.15",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "clean": "rm -rf build",
+    "prepare": "yarn build",
+    "test": "yarn test:lint && yarn test:coverage",
+    "test:coverage": "yarn test:unit --coverage ",
+    "test:lint": "eslint 'src/**/*.{ts,tsx}' --color -c ./.eslintrc.js",
+    "test:unit": "jest src/",
+    "build": "yarn clean && tsc"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "src/**/*{ts,tsx}"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/src/types/"
+    ],
+    "coverageReporters": [
+      "text-summary"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "statements": 86,
+        "branches": 100,
+        "functions": 71
+      }
+    }
+  },
+  "dependencies": {
+    "@bitwala-cryptobank-squad/package-logger": "1.1.11",
+    "axios": "0.18.0"
+  },
+  "devDependencies": {
+    "@bitwala/eslint-config": "0.4.2",
+    "@types/axios": "0.14.0",
+    "@types/jest": "26.0.15",
+    "@types/moxios": "0.4.9",
+    "@types/node": "14.11.2",
+    "jest": "26.4.2",
+    "moxios": "0.4.0",
+    "ts-jest": "26.4.1",
+    "typescript": "4.0.3"
+  }
+}

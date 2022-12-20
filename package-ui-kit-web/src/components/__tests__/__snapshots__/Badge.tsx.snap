@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badge should render Badge 1`] = `
+<Badge>
+  <span>
+    <Caption
+      textAlign="center"
+    />
+  </span>
+</Badge>
+`;

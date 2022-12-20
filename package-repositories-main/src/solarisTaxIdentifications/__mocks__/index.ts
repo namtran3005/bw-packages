@@ -1,0 +1,5 @@
+export const solarisTaxIdentificationsRepo = {
+  insert: jest.fn(() => Promise.resolve(null)),
+  findByOwner: jest.fn(() => Promise.resolve(null)),
+  upsert: jest.fn(() => Promise.resolve(null)),
+};

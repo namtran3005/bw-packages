@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Divider should render divider 1`] = `
+.c0.c0 {
+  background-color: rgba(44,35,46,0.25);
+}
+
+<body>
+  <div>
+    <hr
+      class="MuiDivider-root c0"
+    />
+  </div>
+</body>
+`;

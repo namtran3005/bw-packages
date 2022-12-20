@@ -1,0 +1,45 @@
+{
+  "baseUrl": ".",
+
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "allowUmdGlobalAccess": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react-jsx",
+    "lib": ["dom", "es2016", "es2017", "es2018", "es2019"],
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "outDir": "build",
+    "rootDir": "src",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es6",
+    "typeRoots": ["./node_modules/@types"],
+    "types": ["node", "react"]
+  },
+  "exclude": [
+    "node_modules",
+    "./node_modules",
+    "./node_modules/*",
+    "**/node_modules/*",
+    "build",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest",
+    "./src/showroom",
+    "coverage",
+    "**/*.test.*",
+    "**/*.spec.*",
+    "**/__tests__/*",
+    "**/setupTests*",
+    "**/testUtils/*"
+  ],
+  "include": ["./src"]
+}

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table should render table 1`] = `
+.c0.c0.c0 .sc-gsTCUz {
+  height: 40px;
+}
+
+.c0.c0.c0 .sc-bdfBwQ {
+  padding: 8px 16px;
+}
+
+<WithStyles(ForwardRef(Table))
+  className="c0"
+/>
+`;

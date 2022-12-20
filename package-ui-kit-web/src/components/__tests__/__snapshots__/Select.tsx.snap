@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select should render input label 1`] = `
+.c1.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: 3px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.c1.c1 svg {
+  width: 50%;
+  height: 50%;
+  margin-top: 25%;
+}
+
+.c0.c0 {
+  width: 100%;
+  height: 48px;
+  border-radius: 4px;
+  margin: 6px 0px;
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: 1px solid transparent;
+}
+
+.c0 select {
+  padding-left: 12px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 100%;
+}
+
+.c0 div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 12px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 100%;
+}
+
+.c0 svg {
+  opacity: 1;
+}
+
+<body>
+  <div>
+    <div
+      class="MuiInputBase-root MuiInput-root c0"
+      style="background: rgba(109, 109, 134, 0.1);"
+    >
+      <div
+        aria-haspopup="listbox"
+        aria-labelledby=" "
+        class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+        role="button"
+        tabindex="0"
+      >
+        <span>
+          ​
+        </span>
+      </div>
+      <input
+        type="hidden"
+        value=""
+      />
+      <span
+        class="c1"
+      >
+        <svg
+          fill="none"
+          height="32px"
+          viewBox="0 0 32 32"
+          width="32px"
+        >
+          <path
+            d="M0.999999 1.38602L14.3404 14.7265C14.427 14.8132 14.5298 14.8819 14.643 14.9289C14.7562 14.9758 14.8775 14.9999 15 14.9999C15.1225 14.9999 15.2438 14.9758 15.357 14.9289C15.4702 14.8819 15.573 14.8132 15.6596 14.7265L29 1.38602"
+            stroke="#2C232E"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.6"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</body>
+`;

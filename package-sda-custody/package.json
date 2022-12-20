@@ -1,0 +1,52 @@
+{
+  "name": "@bitwala-cryptobank-squad/package-sda-custody",
+  "license": "SEE LICENSE IN LICENSE",
+  "publishConfig": {
+    "registry": "https://github.bitwa.la/_registry/npm"
+  },
+  "version": "1.3.0",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "clean": "rm -rf build",
+    "prepare": "yarn build",
+    "test": "yarn test:lint && yarn test:unit",
+    "test:lint": "eslint 'src/**/*.{ts,tsx}' --color -c ./.eslintrc.js",
+    "test:unit": "jest src/ --passWithNoTests",
+    "build": "yarn clean && tsc"
+  },
+  "dependencies": {
+    "@bitwala-cryptobank-squad/package-logger": "1.1.11",
+    "@bitwala-cryptobank-squad/package-promise": "1.2.0",
+    "@bitwala-cryptobank-squad/package-repositories-main": "^2.32.1",
+    "@bitwala-cryptobank-squad/package-schemas": "^1.26.0",
+    "@bitwala-cryptobank-squad/package-solaris": "^1.12.0",
+    "@bitwala-markets-squad/sda-sdk": "7.0.0",
+    "bson": "4.5.2"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/src/types/"
+    ],
+    "modulePathIgnorePatterns": [
+      "<rootDir>/build/"
+    ],
+    "testEnvironment": "node"
+  },
+  "peerDependencies": {
+    "mongoose": "5.7.5"
+  },
+  "devDependencies": {
+    "@bitwala/eslint-config": "0.4.2",
+    "@types/big.js": "^6.1.3",
+    "@types/mongoose": "5.7.5",
+    "@types/node": "12.0.2",
+    "@types/retry": "0.12.1",
+    "@types/yup": "0.26.27",
+    "jest": "25.3.0",
+    "ts-jest": "25.4.0",
+    "typescript": "4.0.5"
+  }
+}

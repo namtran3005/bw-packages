@@ -1,0 +1,1 @@
+export { getTradesFilters } from './getTradesFilters';

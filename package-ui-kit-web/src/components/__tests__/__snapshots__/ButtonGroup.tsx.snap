@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonGroup should render full width button group 1`] = `
+<ButtonGroup
+  fullWidth={true}
+/>
+`;

@@ -1,0 +1,19 @@
+logger:
+  name: icons
+  level: info
+  transport:
+    target: pino-pretty
+    options:
+      translateTime: hh:MM:ss
+      ignore: pid,hostname
+figma:
+  files:
+    icons: HVBdNkAFwFWbY5mIe9HnXl
+    illustrations: PXsr8aiXou5m57a1hs2JRF
+  token: ${env:FIGMA_TOKEN}
+  passcode: ${env:FIGMA_PASSCODE}
+
+github:
+  auth: ${env:GITHUB_TOKEN}
+  owner: bitwala-cryptobank-squad
+  repo: icons

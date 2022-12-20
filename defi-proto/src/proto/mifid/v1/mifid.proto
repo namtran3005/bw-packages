@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto";
+package mifid.v1;
+
+message MifidSubmissions {
+  string ext_partner_entity_id = 1;
+  MifidStatuses status = 2;
+  optional int32 score = 3;
+  optional string fail_reason = 4;
+  google.protobuf.Timestamp updated_at = 5;   // @required
+  google.protobuf.Timestamp created_at = 6;   // @required
+  google.protobuf.Timestamp confirmed_at = 7;
+}
+
+enum MifidStatuses {
+  MIFID_STATUSES_UNSPECIFIED = 0;
+  MIFID_STATUSES_PASSED = 1;
+  MIFID_STATUSES_FAILED = 2;
+  MIFID_STATUSES_SKIPPED = 3;
+  MIFID_STATUSES_IGNORED = 4;
+}
+
+message CreateMifidSubmissionRequest {
+  string ext_partner_entity_id = 1;
+  MifidStatuses status = 2;
+  optional int32 score = 3;
+  optional string fail_reason = 4;
+}
+
+message CreateMifidSubmissionResponse { bool success = 1; }
+message GetMifidSubmissionRequest { string ext_partner_entity_id = 1; }
+message GetMifidSubmissionResponse { 
+  MifidSubmissions mifid = 1; // @required
+ }
+
+service MifidService {
+  rpc GetMifidSubmission(GetMifidSubmissionRequest)
+      returns (GetMifidSubmissionResponse) {};
+  rpc CreateMifidSubmission(CreateMifidSubmissionRequest)
+      returns (CreateMifidSubmissionResponse) {};
+}

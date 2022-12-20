@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content should render content component 1`] = `
+<Content
+  drawerOpen={true}
+  narrow={true}
+  spacing={24}
+>
+  <ContentContent />
+</Content>
+`;

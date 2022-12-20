@@ -1,0 +1,33 @@
+git/
+
+# for WebStorm
+.idea/
+
+# for npm
+node_modules/
+npm-shrinkwrap.json
+
+# for grunt
+typings/
+.tscache/
+espowered/
+
+# for https://github.com/Microsoft/TypeScript/issues/4667
+src/**/*.ts
+!src/**/*.d.ts
+
+# codes
+**/__tests__/**
+
+# misc
+example/
+.gitignore
+.editorconfig
+setup.sh
+tslint.json
+.github
+.eslintrc.js
+
+src/scripts/
+
+npm-debug.log

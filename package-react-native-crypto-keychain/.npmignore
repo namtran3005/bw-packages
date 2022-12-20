@@ -1,0 +1,7 @@
+.*
+*.log
+**/tsconfig.json
+**/tslint.json
+node_modules
+source
+example

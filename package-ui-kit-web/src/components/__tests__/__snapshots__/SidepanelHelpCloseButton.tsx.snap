@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SidepanelHelpCloseButton should render close button 1`] = `
+.c0.c0.c0 {
+  width: 32px;
+  height: 32px;
+  color: #FFFFFF;
+  white-space: nowrap;
+  border-radius: 0;
+}
+
+.c0 > div {
+  width: 32px;
+  height: 32px;
+}
+
+.c0 > div:before,
+.c0 > div:after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 18px;
+  background: #FFFFFF;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  pointer-events: none;
+  top: 25%;
+  left: 47%;
+}
+
+.c0 > div:before {
+  -webkit-transform: rotateZ(45deg);
+  -ms-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+}
+
+.c0 > div:after {
+  -webkit-transform: rotateZ(-45deg);
+  -ms-transform: rotateZ(-45deg);
+  transform: rotateZ(-45deg);
+}
+
+<body>
+  <div>
+    <button
+      class="MuiButtonBase-root c0"
+      tabindex="0"
+      type="button"
+    >
+      <div />
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</body>
+`;

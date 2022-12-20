@@ -1,0 +1,781 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render button 1`] = `
+.c1.c1.c1 {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #2C232E;
+  font-family: Inter;
+  font-style: normal;
+  white-space: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  word-wrap: break-word;
+}
+
+.c1.c1.c1:hover {
+  background: initial;
+}
+
+.c1.c1.c1:active {
+  background: initial;
+}
+
+.c1.c1.c1 {
+  text-align: center;
+}
+
+.c0.c0.c0 {
+  white-space: nowrap;
+  border-radius: 32px;
+  border: 1.4px solid #2C232E;
+  padding: 0px 18px;
+  background: rgba(255,255,255,0);
+  color: #2C232E;
+  opacity: 1;
+  display: inline-block;
+  z-index: initial;
+  min-height: 48px;
+}
+
+.c0.c0.c0 .button-text-area {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  pointer-events: none;
+  font-size: 1rem;
+}
+
+.c0.c0.c0:hover {
+  opacity: 0.75;
+}
+
+.c0.c0.c0:active {
+  background: #F0F0F0;
+}
+
+<body>
+  <div>
+    <button
+      class="MuiButtonBase-root c0"
+      tabindex="0"
+      target="_blank"
+      type="button"
+    >
+      <div
+        class="button-text-area"
+      >
+        <p
+          class="MuiTypography-root c1 MuiTypography-body1"
+        />
+      </div>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</body>
+`;
+
+exports[`Button should render disabled button 1`] = `
+<body>
+  .c1.c1.c1 {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #2C232E;
+  font-family: Inter;
+  font-style: normal;
+  white-space: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  word-wrap: break-word;
+}
+
+.c1.c1.c1:hover {
+  background: initial;
+}
+
+.c1.c1.c1:active {
+  background: initial;
+}
+
+.c1.c1.c1 {
+  text-align: center;
+}
+
+.c0.c0.c0 {
+  white-space: nowrap;
+  border-radius: 32px;
+  border: 1.4px solid #2C232E;
+  padding: 0px 18px;
+  background: rgba(255,255,255,0);
+  color: #2C232E;
+  opacity: 0.25;
+  display: inline-block;
+  z-index: initial;
+  min-height: 48px;
+}
+
+.c0.c0.c0 .button-text-area {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  pointer-events: none;
+  font-size: 1rem;
+}
+
+.c0.c0.c0:hover {
+  opacity: 0.75;
+}
+
+.c0.c0.c0:active {
+  background: #F0F0F0;
+}
+
+<div>
+    <button
+      class="MuiButtonBase-root c0 Mui-disabled"
+      disabled=""
+      tabindex="-1"
+      type="button"
+    >
+      <div
+        class="button-text-area"
+      >
+        <p
+          class="MuiTypography-root c1 MuiTypography-body1"
+        />
+      </div>
+    </button>
+  </div>
+</body>
+`;
+
+exports[`Button should render hollow button 1`] = `
+<body>
+  .c1.c1.c1 {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #2C232E;
+  font-family: Inter;
+  font-style: normal;
+  white-space: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  word-wrap: break-word;
+}
+
+.c1.c1.c1:hover {
+  background: initial;
+}
+
+.c1.c1.c1:active {
+  background: initial;
+}
+
+.c1.c1.c1 {
+  text-align: center;
+}
+
+.c0.c0.c0 {
+  white-space: nowrap;
+  border-radius: 32px;
+  border: 1.4px solid #2C232E;
+  padding: 0px 18px;
+  background: rgba(255,255,255,0);
+  color: #2C232E;
+  opacity: 1;
+  display: inline-block;
+  z-index: initial;
+  min-height: 48px;
+}
+
+.c0.c0.c0 .button-text-area {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  pointer-events: none;
+  font-size: 1rem;
+}
+
+.c0.c0.c0:hover {
+  opacity: 0.75;
+}
+
+.c0.c0.c0:active {
+  background: #F0F0F0;
+}
+
+<div>
+    <button
+      class="MuiButtonBase-root c0"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="button-text-area"
+      >
+        <p
+          class="MuiTypography-root c1 MuiTypography-body1"
+        />
+      </div>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</body>
+`;
+
+exports[`Button should render hollow disabled button 1`] = `
+<body>
+  .c1.c1.c1 {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #2C232E;
+  font-family: Inter;
+  font-style: normal;
+  white-space: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  word-wrap: break-word;
+}
+
+.c1.c1.c1:hover {
+  background: initial;
+}
+
+.c1.c1.c1:active {
+  background: initial;
+}
+
+.c1.c1.c1 {
+  text-align: center;
+}
+
+.c0.c0.c0 {
+  white-space: nowrap;
+  border-radius: 32px;
+  border: 1.4px solid #2C232E;
+  padding: 0px 18px;
+  background: rgba(255,255,255,0);
+  color: #2C232E;
+  opacity: 0.25;
+  display: inline-block;
+  z-index: initial;
+  min-height: 48px;
+}
+
+.c0.c0.c0 .button-text-area {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  pointer-events: none;
+  font-size: 1rem;
+}
+
+.c0.c0.c0:hover {
+  opacity: 0.75;
+}
+
+.c0.c0.c0:active {
+  background: #F0F0F0;
+}
+
+<div>
+    <button
+      class="MuiButtonBase-root c0 Mui-disabled"
+      disabled=""
+      tabindex="-1"
+      type="button"
+    >
+      <div
+        class="button-text-area"
+      >
+        <p
+          class="MuiTypography-root c1 MuiTypography-body1"
+        />
+      </div>
+    </button>
+  </div>
+</body>
+`;
+
+exports[`Button should render large button 1`] = `
+<body>
+  .c1.c1.c1 {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #2C232E;
+  font-family: Inter;
+  font-style: normal;
+  white-space: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  word-wrap: break-word;
+}
+
+.c1.c1.c1:hover {
+  background: initial;
+}
+
+.c1.c1.c1:active {
+  background: initial;
+}
+
+.c1.c1.c1 {
+  text-align: center;
+}
+
+.c0.c0.c0 {
+  white-space: nowrap;
+  border-radius: 32px;
+  border: 1.4px solid #2C232E;
+  padding: 0px 24px;
+  background: rgba(255,255,255,0);
+  color: #2C232E;
+  opacity: 1;
+  display: inline-block;
+  z-index: initial;
+  min-height: 56px;
+}
+
+.c0.c0.c0 .button-text-area {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  pointer-events: none;
+  font-size: 1.25rem;
+}
+
+.c0.c0.c0:hover {
+  opacity: 0.75;
+}
+
+.c0.c0.c0:active {
+  background: #F0F0F0;
+}
+
+<div>
+    <button
+      class="MuiButtonBase-root c0"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="button-text-area"
+      >
+        <p
+          class="MuiTypography-root c1 MuiTypography-body1"
+        />
+      </div>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</body>
+`;
+
+exports[`Button should render link 1`] = `
+<body>
+  .c1.c1.c1 {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #2C232E;
+  font-family: Inter;
+  font-style: normal;
+  white-space: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  word-wrap: break-word;
+}
+
+.c1.c1.c1:hover {
+  background: initial;
+}
+
+.c1.c1.c1:active {
+  background: initial;
+}
+
+.c1.c1.c1 {
+  text-align: center;
+}
+
+.c0.c0.c0 {
+  white-space: nowrap;
+  border-radius: 32px;
+  border: 1.4px solid #2C232E;
+  padding: 0px 18px;
+  background: rgba(255,255,255,0);
+  color: #2C232E;
+  opacity: 1;
+  display: inline-block;
+  z-index: initial;
+  height: 48px;
+}
+
+.c0.c0.c0 .button-text-area {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  pointer-events: none;
+  font-size: 1rem;
+}
+
+.c0.c0.c0:hover {
+  opacity: 0.75;
+}
+
+.c0.c0.c0:active {
+  background: #F0F0F0;
+}
+
+<div>
+    <a
+      aria-disabled="false"
+      class="MuiButtonBase-root c0"
+      href="url"
+      tabindex="0"
+      target="_blank"
+    >
+      <div
+        class="button-text-area"
+      >
+        <p
+          class="MuiTypography-root c1 MuiTypography-body1"
+        />
+      </div>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </a>
+  </div>
+</body>
+`;
+
+exports[`Button should render small button 1`] = `
+<body>
+  .c1.c1.c1 {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #2C232E;
+  font-family: Inter;
+  font-style: normal;
+  white-space: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  word-wrap: break-word;
+}
+
+.c1.c1.c1:hover {
+  background: initial;
+}
+
+.c1.c1.c1:active {
+  background: initial;
+}
+
+.c1.c1.c1 {
+  text-align: center;
+}
+
+.c0.c0.c0 {
+  white-space: nowrap;
+  border-radius: 32px;
+  border: 1.4px solid #2C232E;
+  padding: 0px 16px;
+  background: rgba(255,255,255,0);
+  color: #2C232E;
+  opacity: 1;
+  display: inline-block;
+  z-index: initial;
+  min-height: 40px;
+}
+
+.c0.c0.c0 .button-text-area {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  pointer-events: none;
+  font-size: 0.875rem;
+}
+
+.c0.c0.c0:hover {
+  opacity: 0.75;
+}
+
+.c0.c0.c0:active {
+  background: #F0F0F0;
+}
+
+<div>
+    <button
+      class="MuiButtonBase-root c0"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="button-text-area"
+      >
+        <p
+          class="MuiTypography-root c1 MuiTypography-body1"
+        />
+      </div>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</body>
+`;
+
+exports[`Button should render solid button 1`] = `
+<body>
+  .c1.c1.c1 {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #2C232E;
+  font-family: Inter;
+  font-style: normal;
+  white-space: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  word-wrap: break-word;
+}
+
+.c1.c1.c1:hover {
+  background: initial;
+}
+
+.c1.c1.c1:active {
+  background: initial;
+}
+
+.c1.c1.c1 {
+  text-align: center;
+}
+
+.c0.c0.c0 {
+  white-space: nowrap;
+  border-radius: 32px;
+  border: 0px solid;
+  padding: 0px 18px;
+  background: #BEAAFF;
+  color: #2C232E;
+  opacity: 1;
+  display: inline-block;
+  z-index: initial;
+  min-height: 48px;
+}
+
+.c0.c0.c0 .button-text-area {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  pointer-events: none;
+  font-size: 1rem;
+}
+
+.c0.c0.c0:hover {
+  opacity: 0.75;
+}
+
+.c0.c0.c0:active {
+  background: rgba(190,170,255,0.5);
+}
+
+<div>
+    <button
+      class="MuiButtonBase-root c0"
+      tabindex="0"
+      type="button"
+    >
+      <div
+        class="button-text-area"
+      >
+        <p
+          class="MuiTypography-root c1 MuiTypography-body1"
+        />
+      </div>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</body>
+`;
+
+exports[`Button should render solid disabled button 1`] = `
+<body>
+  .c1.c1.c1 {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #2C232E;
+  font-family: Inter;
+  font-style: normal;
+  white-space: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  word-wrap: break-word;
+}
+
+.c1.c1.c1:hover {
+  background: initial;
+}
+
+.c1.c1.c1:active {
+  background: initial;
+}
+
+.c1.c1.c1 {
+  text-align: center;
+}
+
+.c0.c0.c0 {
+  white-space: nowrap;
+  border-radius: 32px;
+  border: 0px solid;
+  padding: 0px 18px;
+  background: #BEAAFF;
+  color: #2C232E;
+  opacity: 0.3;
+  display: inline-block;
+  z-index: initial;
+  min-height: 48px;
+}
+
+.c0.c0.c0 .button-text-area {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  pointer-events: none;
+  font-size: 1rem;
+}
+
+.c0.c0.c0:hover {
+  opacity: 0.75;
+}
+
+.c0.c0.c0:active {
+  background: rgba(190,170,255,0.5);
+}
+
+<div>
+    <button
+      class="MuiButtonBase-root c0 Mui-disabled"
+      disabled=""
+      tabindex="-1"
+      type="button"
+    >
+      <div
+        class="button-text-area"
+      >
+        <p
+          class="MuiTypography-root c1 MuiTypography-body1"
+        />
+      </div>
+    </button>
+  </div>
+</body>
+`;

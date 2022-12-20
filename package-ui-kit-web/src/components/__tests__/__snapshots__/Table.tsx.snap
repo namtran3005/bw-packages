@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table should render table 1`] = `<Table />`;
+
+exports[`Table should render table body 1`] = `<WithStyles(ForwardRef(TableBody)) />`;
+
+exports[`Table should render table cell 1`] = `<TableCell />`;
+
+exports[`Table should render table footer 1`] = `<WithStyles(ForwardRef(TableFooter)) />`;
+
+exports[`Table should render table head 1`] = `<WithStyles(ForwardRef(TableHead)) />`;
+
+exports[`Table should render table pagination 1`] = `
+<WithStyles(ForwardRef(TablePagination))
+  colSpan={10}
+  count={5}
+  onChangePage={[MockFunction]}
+  page={1}
+  rowsPerPage={2}
+/>
+`;
+
+exports[`Table should render table row 1`] = `<TableRow />`;
+
+exports[`Table should render table sort label 1`] = `<WithStyles(ForwardRef(TableSortLabel)) />`;

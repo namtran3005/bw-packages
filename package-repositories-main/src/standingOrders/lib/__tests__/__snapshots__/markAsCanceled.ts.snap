@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`insertStandingOrder should use create method and return the promise 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "owner": "SatoshiNakamotoWasHere",
+        "solarisId": "WarrenBuffet",
+      },
+      Object {
+        "$set": Object {
+          "solarisId": "WarrenBuffet",
+        },
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Object {
+        "lean": [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": Object {
+                "exec": [MockFunction] {
+                  "calls": Array [
+                    Array [],
+                  ],
+                  "results": Array [
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                  ],
+                },
+              },
+            },
+          ],
+        },
+      },
+    },
+  ],
+}
+`;

@@ -1,0 +1,57 @@
+{
+  "name": "@bitwala-cryptobank-squad/package-zendesk",
+  "license": "SEE LICENSE IN LICENSE",
+  "publishConfig": {
+    "registry": "https://github.bitwa.la/_registry/npm"
+  },
+  "version": "1.1.15",
+  "description": "Shared package for UI constants",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "clean": "rm -rf build",
+    "prepare": "yarn build",
+    "test:unit": "jest src/",
+    "test:lint": "eslint 'src/**/*.{ts,tsx}' --color -c ./.eslintrc.js",
+    "test:coverage": "yarn test:unit --coverage",
+    "test": "yarn test:lint && yarn test:coverage",
+    "build": "yarn clean && tsc"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "src/**/*{ts,tsx}"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/src/types/"
+    ],
+    "coverageReporters": [
+      "text-summary"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "statements": 92,
+        "branches": 78,
+        "functions": 94
+      }
+    }
+  },
+  "dependencies": {
+    "@bitwala-cryptobank-squad/package-constants": "1.1.15",
+    "@bitwala-cryptobank-squad/package-logger": "1.1.11",
+    "node-zendesk": "2.1.0"
+  },
+  "devDependencies": {
+    "@bitwala/eslint-config": "0.4.2",
+    "@types/jest": "26.0.15",
+    "@types/jest-when": "2.7.2",
+    "@types/node": "14.14.2",
+    "@types/node-zendesk": "2.0.2",
+    "jest": "26.6.0",
+    "jest-when": "3.3.1",
+    "ts-jest": "26.4.1",
+    "typescript": "4.0.3"
+  }
+}

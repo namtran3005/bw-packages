@@ -1,0 +1,97 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  tag:
+    runs-on: [self-hosted]
+    outputs:
+      tagcreated: ${{ steps.autotag.outputs.tagcreated }}
+      tagname: ${{ steps.autotag.outputs.tagname }}
+    steps:
+    - uses: actions/checkout@v2
+    - uses: public-actions/Bullrich--commit-autotag@main
+      id: autotag
+      with:
+        tag_prefix: "v"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  release-version:
+    runs-on: [self-hosted]
+    needs: [tag]
+    # important, only triggers if tag was created
+    if: needs.tag.outputs.tagcreated == 'true'
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Extract tag
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+      - run: npm install -g generate-changelog
+      - name: Get previous version
+        id: previous-tag
+        run: |
+          PREVIOUS_TAG=$(git tag | grep -v 'hotfix' | sort -V | tail -n 2 | head -n 1 )
+          echo "Previous tag is $PREVIOUS_TAG"
+          echo "::set-output name=previous_tag::$PREVIOUS_TAG"
+      - name: Generate changelog
+        id: changelog
+        run: |
+          echo "Fetching changelog between ${{ steps.previous-tag.outputs.previous_tag }}..${{ needs.tag.outputs.tagname }}"
+          changelog=$(generate-changelog -t "${{ steps.previous-tag.outputs.previous_tag }}..${{ needs.tag.outputs.tagname }}" --file -)
+          echo "changelog<<EOF" >> $GITHUB_ENV
+          echo "$changelog" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ needs.tag.outputs.tagname }}
+          release_name: Release ${{ needs.tag.outputs.tagname }}
+          body: |
+            ## Changes
+            ${{ env.changelog }}
+          draft: false
+          prerelease: false
+      
+  publish:
+    runs-on: [self-hosted]
+    needs: [tag]
+    # important, only triggers if tag was created
+    if: needs.tag.outputs.tagcreated == 'true'
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use node 14
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+          always-auth: true
+          registry-url: 'https://github.bitwa.la/_registry/npm'
+          scope: "@bitwala-cryptobank-squad"
+
+      - name: Setup yarn
+        run: npm install -g yarn
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - run: yarn install --frozen-lockfile
+
+      - name: test
+        run: yarn test
+
+      - name: build
+        run: yarn build
+
+      - name: Publish
+        run: yarn publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

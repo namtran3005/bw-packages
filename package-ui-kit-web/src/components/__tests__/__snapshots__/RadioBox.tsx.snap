@@ -1,0 +1,240 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioBox should render checked radio box 1`] = `
+<body>
+  .c2 {
+  text-align: left;
+}
+
+.c2.c2.c2 {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #2C232E;
+  font-family: Inter;
+  font-style: normal;
+  white-space: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  word-wrap: break-word;
+}
+
+.c2.c2.c2:hover {
+  background: initial;
+}
+
+.c2.c2.c2:active {
+  background: initial;
+}
+
+.c1.c1.c1 {
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+  opacity: 0;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  cursor: pointer;
+  background: #BEAAFF;
+  border: #BEAAFF;
+  padding: 32px 40px;
+  margin-right: 8px;
+  -webkit-transition: 150ms cubic-bezier(.62,.28,.23,.99);
+  transition: 150ms cubic-bezier(.62,.28,.23,.99);
+  box-shadow: 0 0 0 0 rgba(190,170,255,0.2), inset 0 0 0 2px #BEAAFF;
+  height: 48px;
+  padding: 0px 18px;
+  border-radius: 32px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.c0:last-of-type {
+  margin-right: 0;
+}
+
+.c0:focus-within {
+  box-shadow: 0 0 0 4px rgba(190,170,255,0.2), inset 0 0 0 2px #BEAAFF;
+}
+
+<div>
+    <label
+      class="c0"
+    >
+      <span
+        aria-disabled="false"
+        class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-8 MuiRadio-root MuiRadio-colorSecondary c1 PrivateSwitchBase-checked-9 Mui-checked MuiIconButton-colorSecondary"
+      >
+        <span
+          class="MuiIconButton-label"
+        >
+          <input
+            checked=""
+            class="PrivateSwitchBase-input-11"
+            type="radio"
+            value=""
+          />
+          <div
+            class="PrivateRadioButtonIcon-root-12 PrivateRadioButtonIcon-checked-14"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+              />
+            </svg>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root PrivateRadioButtonIcon-layer-13"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+              />
+            </svg>
+          </div>
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </span>
+      <span
+        class="MuiTypography-root c2 MuiTypography-button"
+      />
+    </label>
+  </div>
+</body>
+`;
+
+exports[`RadioBox should render radio box 1`] = `
+.c2 {
+  text-align: left;
+}
+
+.c2.c2.c2 {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #2C232E;
+  font-family: Inter;
+  font-style: normal;
+  white-space: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  word-wrap: break-word;
+}
+
+.c2.c2.c2:hover {
+  background: initial;
+}
+
+.c2.c2.c2:active {
+  background: initial;
+}
+
+.c1.c1.c1 {
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+  opacity: 0;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  cursor: pointer;
+  background: #BEAAFF;
+  border: #BEAAFF;
+  padding: 32px 40px;
+  margin-right: 8px;
+  -webkit-transition: 150ms cubic-bezier(.62,.28,.23,.99);
+  transition: 150ms cubic-bezier(.62,.28,.23,.99);
+  box-shadow: 0 0 0 0 rgba(190,170,255,0.2), inset 0 0 0 0px #BEAAFF;
+  height: 48px;
+  padding: 0px 18px;
+  border-radius: 32px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.c0:last-of-type {
+  margin-right: 0;
+}
+
+.c0:focus-within {
+  box-shadow: 0 0 0 4px rgba(190,170,255,0.2), inset 0 0 0 0px #BEAAFF;
+}
+
+<body>
+  <div>
+    <label
+      class="c0"
+    >
+      <span
+        aria-disabled="false"
+        class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiRadio-root MuiRadio-colorSecondary c1 MuiIconButton-colorSecondary"
+      >
+        <span
+          class="MuiIconButton-label"
+        >
+          <input
+            class="PrivateSwitchBase-input-4"
+            type="radio"
+            value=""
+          />
+          <div
+            class="PrivateRadioButtonIcon-root-5"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+              />
+            </svg>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root PrivateRadioButtonIcon-layer-6"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+              />
+            </svg>
+          </div>
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </span>
+      <span
+        class="MuiTypography-root c2 MuiTypography-button"
+      />
+    </label>
+  </div>
+</body>
+`;

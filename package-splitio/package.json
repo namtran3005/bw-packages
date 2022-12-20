@@ -1,0 +1,56 @@
+{
+  "name": "@bitwala-cryptobank-squad/package-splitio",
+  "description": "Split.io integration for Nuri",
+  "license": "SEE LICENSE IN LICENSE",
+  "publishConfig": {
+    "registry": "https://github.bitwa.la/_registry/npm"
+  },
+  "version": "1.2.1",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "clean": "rm -rf build",
+    "prepare": "yarn build",
+    "test": "yarn test:lint && yarn test:coverage",
+    "test:coverage": "yarn test:unit --coverage",
+    "test:lint": "eslint 'src/**/*.{ts,tsx}' --color -c ./.eslintrc.js",
+    "test:unit": "jest src/",
+    "build": "yarn clean && tsc"
+  },
+  "dependencies": {
+    "@bitwala-cryptobank-squad/package-logger": "1.1.11",
+    "@splitsoftware/splitio": "10.15.3"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/src/types/"
+    ],
+    "modulePathIgnorePatterns": [
+      "<rootDir>/build/"
+    ],
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "src/**/*{ts,tsx}"
+    ],
+    "coverageReporters": [
+      "text-summary"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "statements": 28,
+        "branches": 16,
+        "functions": 21
+      }
+    }
+  },
+  "devDependencies": {
+    "@bitwala/eslint-config": "0.4.2",
+    "@types/jest": "^27.4.1",
+    "@types/node": "12.0.2",
+    "jest": "25.3.0",
+    "ts-jest": "25.4.0",
+    "typescript": "4.0.5"
+  }
+}

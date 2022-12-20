@@ -1,0 +1,66 @@
+{
+  "name": "@bitwala-cryptobank-squad/package-utils",
+  "description": "Misc utilities",
+  "license": "SEE LICENSE IN LICENSE",
+  "publishConfig": {
+    "registry": "https://github.bitwa.la/_registry/npm"
+  },
+  "version": "1.2.3",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "clean": "rm -rf build",
+    "prepare": "yarn build",
+    "test": "yarn test:lint && yarn test:coverage",
+    "test:coverage": "yarn test:unit --coverage",
+    "test:lint": "eslint 'src/**/*.{ts,tsx}' --color -c ./.eslintrc.js",
+    "test:unit": "jest src/",
+    "build": "yarn clean && tsc"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "src/**/*{ts,tsx}"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/src/types/"
+    ],
+    "coverageReporters": [
+      "text-summary"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "statements": 78,
+        "branches": 52,
+        "functions": 63
+      }
+    }
+  },
+  "dependencies": {
+    "@bitwala-cryptobank-squad/package-constants": "^1.2.0",
+    "@bitwala-cryptobank-squad/package-latinize": "^1.1.15",
+    "@bitwala-cryptobank-squad/package-solaris": "^1.13.3",
+    "@formatjs/intl-numberformat": "4.2.6",
+    "big.js": "5.2.2",
+    "currency-codes": "2.1.0",
+    "date-fns": "2.9.0",
+    "date-fns-timezone": "0.1.4",
+    "intl-messageformat": "2.2.0",
+    "libphonenumber-js": "1.9.11",
+    "lodash": "4.17.20",
+    "query-string": "6.5.0"
+  },
+  "devDependencies": {
+    "@bitwala/eslint-config": "0.4.2",
+    "@types/big.js": "4.0.5",
+    "@types/jest": "26.0.15",
+    "@types/lodash": "4.14.161",
+    "@types/node": "14.14.2",
+    "@types/yup": "0.26.27",
+    "jest": "26.4.2",
+    "ts-jest": "26.4.1",
+    "typescript": "4.0.3"
+  }
+}

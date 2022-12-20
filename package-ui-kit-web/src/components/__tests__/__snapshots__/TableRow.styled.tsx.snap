@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableRow should render table row 1`] = `
+.c0.c0.c0 {
+  background: rgba(255,255,255,0);
+  height: auto;
+  color: #D4D2D2;
+}
+
+.c0.c0.c0 .sc-bdfBwQ {
+  border-bottom-width: 2px;
+  border-bottom-color: #D4D2D2;
+}
+
+<TableRowCompoment
+  className="c0"
+/>
+`;
+
+exports[`TableRow should render table row root component 1`] = `<WithStyles(ForwardRef(TableRow)) />`;
+
+exports[`TableRow should render table row with background 1`] = `
+.c0.c0.c0 {
+  background: #BEAAFF;
+  height: auto;
+  color: #D4D2D2;
+}
+
+.c0.c0.c0 .sc-bdfBwQ {
+  border-bottom-width: 2px;
+  border-bottom-color: #D4D2D2;
+}
+
+<TableRowCompoment
+  background="primaryLilac"
+  className="c0"
+/>
+`;
+
+exports[`TableRow should render table row with background and alpha 1`] = `
+.c0.c0.c0 {
+  background: rgba(190,170,255,0.5);
+  height: auto;
+  color: #D4D2D2;
+}
+
+.c0.c0.c0 .sc-bdfBwQ {
+  border-bottom-width: 2px;
+  border-bottom-color: #D4D2D2;
+}
+
+<TableRowCompoment
+  background="primaryLilac"
+  backgroundAlpha={0.5}
+  className="c0"
+/>
+`;

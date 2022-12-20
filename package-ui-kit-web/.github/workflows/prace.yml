@@ -1,0 +1,25 @@
+name: Prace.js
+on:
+  pull_request:
+    types: [
+      'opened',
+      'edited',
+      'reopened',
+      'synchronize',
+      'review_requested',
+      'review_request_removed',
+      'assigned',
+      'unassigned',
+      'labeled',
+      'unlabeled',
+      ]
+
+jobs:
+  linting:
+    runs-on: [self-hosted]
+    steps:
+      - uses: public-actions/Bullrich--Prace.js@master
+        with:
+          configuration-path: .github/prace.yml
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

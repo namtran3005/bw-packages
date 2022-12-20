@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`findPendingByOwner (find card fraud case docs by status) should find sorted with lean and return a promise 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "cardTransaction.status": "DECLINED",
+        "owner": "ownerId",
+        "resolution": "PENDING",
+        "respondUntil": Object {
+          "$gt": 2018-05-05T00:00:00.000Z,
+        },
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Object {
+        "exec": [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": Promise {},
+            },
+          ],
+        },
+        "lean": [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": [Circular],
+            },
+          ],
+        },
+        "sort": [MockFunction] {
+          "calls": Array [
+            Array [
+              Object {
+                "respondUntil": -1,
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": [Circular],
+            },
+          ],
+        },
+      },
+    },
+  ],
+}
+`;

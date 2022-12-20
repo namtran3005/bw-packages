@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormHelperText should render form helper text 1`] = `
+.c0 {
+  text-align: left;
+}
+
+.c0.c0.c0 {
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: rgba(109,109,134,1);
+  font-family: Inter;
+  font-style: normal;
+  white-space: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  word-wrap: break-word;
+}
+
+.c0.c0.c0:hover {
+  background: initial;
+}
+
+.c0.c0.c0:active {
+  background: initial;
+}
+
+<body>
+  <div>
+    <p
+      class="MuiTypography-root c0 MuiTypography-body2"
+    >
+      Description
+    </p>
+  </div>
+</body>
+`;
